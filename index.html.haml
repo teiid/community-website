@@ -20,32 +20,59 @@ title: Teiid Homepage
       %a.accordion-toggle.in{"data-parent" => "#accordionAnnounce", "data-toggle" => "collapse", href: "#collapseTwo"}
         %h4
           .icon.icon-asterisk
-          Announcement: 8.6 Final Released on December 17th, 2013
+          Announcement: 8.7 Final Released on April 16th, 2014
     #collapseTwo.accordion-body.collapse
       .accordion-inner
-        %p Teiid 8.6 for EAP 6.1 Alpha is now available. The main features are:
+        %p Teiid 8.7 for EAP 6.1 Alpha is now available. The main features are:
         %ul
           %li
-            TEIID-2424
-            %b OSGI Bundles
-            \- Teiid jars are now  built also as OSGI bundles. A starter Karaf osgi container features.xml  file is available in maven repository with the build
+            TEIID-1070
+            %b Amazon SimpleDB 
+            \- support has been contributed by Radim Hopp.  See the Admin and Reference Guides for more.
           %li
-            TEIID-1311
-            %b Cassandra Connectivity
-            \- is now offered through a community contribution by Radek Koubský of a  resource adapter and translator pair.  See the reference and admin  guides for more.
+            TEIID-2761
+            %b Security Enhancements 
+            \- added support for a grant-all attribute on a role.  Also added the ability to specify the security domain for a VDB.  See the reference guide for more.
           %li
-            TEIID-2309
-            %b Conformed tables
-            \- a feature to improve planning when identical tables exist in multiple sources.
+            TEIID-2780
+            %b Apache Solr 
+            \- Translator  has been added.  See the Admin and Reference Guides for more. See <a href="https://community.jboss.org/wiki/IntegrateApacheSolrWithTeiid">example here</a>
           %li
-            TEIID-2685
-            %b SAP Netweaver
-            \- enhanced the OData translator for use with Netweaver.
+            TEIID-2809
+            %b Pattern based system property substitution 
+            \- has been added to VDB.XML files. Only supported if the DVB is being deployed JBoss EAP.
           %li
-            %b Direct Query Procedure Support
-            %ul
-              %li TEIID-2740 - MongoDB
-              %li TEIID-2734 - Cassandra
+            TEIID-2844
+            %b Remove unauthorized columns 
+            \- from SELECT * can be enabled via the session property ignore_unauthorized_asterisk.  See the Reference for more.
+          %li
+            TEIID-2863/TEIID-2761
+            %b More robust GSS-API support 
+            \-. This issue also implements a feature where a user can now define a "security-domain" per VDB. User no longer has to depend upon the transport level authentication.
+          %li
+            TEIID-2826
+            %b Revamped build structure for translators and connectors 
+            \- so that it is easier to package them and deploy them to a Teiid server.
+          %li
+            TEIID-2859
+            %b TEXTTABLE FOR ORDINALITY 
+            \- a FOR ORDINALITY column can now be used with TEXTTABLE.  See the Reference for more.
+          %li
+            TEIID-965 
+            %b Apache POI based Excel 
+            \- connectivity has been added.  See the reference for more. See <a href="https://community.jboss.org/wiki/MicrosoftExcelDocumentIntoRelationalTable">example here</a>
+          %li
+            TEIID-2888
+            %b Designer VDB support in Embedded 
+            \- is now available.  With a few caveats, Designer .INDEX based vdbs can now be used with Teiid Embedded.  See the Embedded Guide for more.
+          %li
+            TEIID-2904
+            %b Translator Properties 
+            \- Translator import, override and extension-metadata properties are can retrieved through Admin API
+          %li
+            TEIID-2627
+            %b Accumulo 
+            \- Translator has been added. See Admin and Reference guides for more information. See <a href="https://community.jboss.org/wiki/ApacheAccumuloWithTeiid">example here</a>
 %table
   %tbody
     %tr
