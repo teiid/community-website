@@ -20,59 +20,18 @@ title: Teiid Homepage
       %a.accordion-toggle.in{"data-parent" => "#accordionAnnounce", "data-toggle" => "collapse", href: "#collapseTwo"}
         %h4
           .icon.icon-asterisk
-          Announcement: 8.7 Final Released on April 16th, 2014
+          Announcement: 8.8 Final Released on July 17th, 2014
     #collapseTwo.accordion-body.collapse
       .accordion-inner
-        %p Teiid 8.7 for EAP 6.1 Alpha is now available. The main features are:
+        %p Teiid 8.8 for EAP 6.1 Alpha is now available. The main features are:
         %ul
-          %li
-            TEIID-1070
-            %b Amazon SimpleDB 
-            \- support has been contributed by Radim Hopp.  See the Admin and Reference Guides for more.
-          %li
-            TEIID-2761
-            %b Security Enhancements 
-            \- added support for a grant-all attribute on a role.  Also added the ability to specify the security domain for a VDB.  See the reference guide for more.
-          %li
-            TEIID-2780
-            %b Apache Solr 
-            \- Translator  has been added.  See the Admin and Reference Guides for more. See <a href="https://community.jboss.org/wiki/IntegrateApacheSolrWithTeiid">example here</a>
-          %li
-            TEIID-2809
-            %b Pattern based system property substitution 
-            \- has been added to VDB.XML files. Only supported if the DVB is being deployed JBoss EAP.
-          %li
-            TEIID-2844
-            %b Remove unauthorized columns 
-            \- from SELECT * can be enabled via the session property ignore_unauthorized_asterisk.  See the Reference for more.
-          %li
-            TEIID-2863/TEIID-2761
-            %b More robust GSS-API support 
-            \-. This issue also implements a feature where a user can now define a "security-domain" per VDB. User no longer has to depend upon the transport level authentication.
-          %li
-            TEIID-2826
-            %b Revamped build structure for translators and connectors 
-            \- so that it is easier to package them and deploy them to a Teiid server.
-          %li
-            TEIID-2859
-            %b TEXTTABLE FOR ORDINALITY 
-            \- a FOR ORDINALITY column can now be used with TEXTTABLE.  See the Reference for more.
-          %li
-            TEIID-965 
-            %b Apache POI based Excel 
-            \- connectivity has been added.  See the reference for more. See <a href="https://community.jboss.org/wiki/MicrosoftExcelDocumentIntoRelationalTable">example here</a>
-          %li
-            TEIID-2888
-            %b Designer VDB support in Embedded 
-            \- is now available.  With a few caveats, Designer .INDEX based vdbs can now be used with Teiid Embedded.  See the Embedded Guide for more.
-          %li
-            TEIID-2904
-            %b Translator Properties 
-            \- Translator import, override and extension-metadata properties are can retrieved through Admin API
-          %li
-            TEIID-2627
-            %b Accumulo 
-            \- Translator has been added. See Admin and Reference guides for more information. See <a href="https://community.jboss.org/wiki/ApacheAccumuloWithTeiid">example here</a>
+          <li>TEIID-2647 <b>Translator for Cloudera's Impala</b> data warehouse has been added.  See the reference for more.</li>
+          <li>TEIID-2902 <b>More incremental joins</b> where the whole dataset does not need fully sorted or even read.</li>
+          <li>TEIID-2263 <b>More control over MAKE (NOT) DEP hints</b> via syntax that allows for traversing views.  See the reference for more.</li>
+          <li>TEIID-2263 <b>Common Table (WITH) planning improvements</b> such that the usage of a WITH clause in a view or inline view no longer inhibits planning as part of the larger query.</li>
+          <li>TEIID-2980 <b>XMLTable Array Support</b> - XMLTABLE may now return arrays for sequence values.</li>
+          <li>TEIID-1675 <b>Updatable LDAP multi-valued attributes</b> - using an array type mapping, LDAP multi-valued attributes can be inserted/updated.
+          <li>TEIID-3018 <b>System tables for view/procedure defintions</b> - the SYSADMIN Views and StoredProcedures tables can be used to access the defintions of the views/procedures.
 %table
   %tbody
     %tr
