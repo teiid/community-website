@@ -20,18 +20,19 @@ title: Teiid Homepage
       %a.accordion-toggle.in{"data-parent" => "#accordionAnnounce", "data-toggle" => "collapse", href: "#collapseTwo"}
         %h4
           .icon.icon-asterisk
-          Announcement: 8.8 Final Released on July 17th, 2014
+          Announcement: 8.9 Final Released on November 17th, 2014
     #collapseTwo.accordion-body.collapse
       .accordion-inner
-        %p Teiid 8.8 for EAP 6.1 Alpha is now available. The main features are:
+        %p Teiid 8.9 for EAP 6.3 Alpha is now available. The main features are:
         %ul
-          <li>TEIID-2647 <b>Translator for Cloudera's Impala</b> data warehouse has been added.  See the reference for more.</li>
-          <li>TEIID-2902 <b>More incremental joins</b> where the whole dataset does not need fully sorted or even read.</li>
-          <li>TEIID-2263 <b>More control over MAKE (NOT) DEP hints</b> via syntax that allows for traversing views.  See the reference for more.</li>
-          <li>TEIID-2263 <b>Common Table (WITH) planning improvements</b> such that the usage of a WITH clause in a view or inline view no longer inhibits planning as part of the larger query.</li>
-          <li>TEIID-2980 <b>XMLTable Array Support</b> - XMLTABLE may now return arrays for sequence values.</li>
-          <li>TEIID-1675 <b>Updatable LDAP multi-valued attributes</b> - using an array type mapping, LDAP multi-valued attributes can be inserted/updated.
-          <li>TEIID-3018 <b>System tables for view/procedure defintions</b> - the SYSADMIN Views and StoredProcedures tables can be used to access the defintions of the views/procedures.
+          <li>TEIID-3009 <b>WITH project minimization</b> - common table expressions will have their project columns minimized.
+          <li>TEIID-3038 <b>geoSpatial support for MongoDB</b> translator
+          <li>TEIID-3050 <b>Increased Insert Performance</b> with sources that support batching or insert with iterator.
+          <li>TEIID-3044 <b>Function Metadata</b> is available through system tables and DatabaseMetaData.
+          <li>TEIID-1910 <b>TeiidPlatform for EclipseLink</b> integration is now provided via the teiid-eclipselink-platform jar in maven.
+          <li>TEIID-3119 <b>Performance improvements</b> in grouping and duplicate removal as well as general improvements to memory management.
+          <li>TEIID-3156 <b>Collation aware</b> prevention of order by pushdown via the collationLocale translator property and the org.teiid.requireTeiidCollation system property.
+          <li>TEIID-3042 <b>Usage Information</b> on views and procedures in the system table SYSADMIN.Usage.
 %table
   %tbody
     %tr
