@@ -20,20 +20,22 @@ title: Teiid Homepage
       %a.accordion-toggle.in{"data-parent" => "#accordionAnnounce", "data-toggle" => "collapse", href: "#collapseTwo"}
         %h4
           .icon.icon-asterisk
-          Announcement: 8.9 Final Released on November 17th, 2014
+          Announcement: 8.10 Final Released on March 1th, 2015
     #collapseTwo.accordion-body.collapse
       .accordion-inner
-        %p Teiid 8.9 for EAP 6.3 Alpha is now available. The main features are:
+        %p Teiid 8.10 for EAP 6.3 Alpha is now available. The main features are:
         %ul
-          <li>TEIID-3009 <b>WITH project minimization</b> - common table expressions will have their project columns minimized.
-          <li>TEIID-3038 <b>geoSpatial support for MongoDB</b> translator
-          <li>TEIID-3050 <b>Increased Insert Performance</b> with sources that support batching or insert with iterator.
-          <li>TEIID-3044 <b>Function Metadata</b> is available through system tables and DatabaseMetaData.
-          <li>TEIID-1910 <b>TeiidPlatform for EclipseLink</b> integration is now provided via the teiid-eclipselink-platform jar in maven.
-          <li>TEIID-3119 <b>Performance improvements</b> in grouping and duplicate removal as well as general improvements to memory management.
-          <li>TEIID-3156 <b>Collation aware</b> prevention of order by pushdown via the collationLocale translator property and the org.teiid.requireTeiidCollation system property.
-          <li>TEIID-3042 <b>Usage Information</b> on views and procedures in the system table SYSADMIN.Usage.
-%table
+          <li>TEIID-3192 <b>Salesforce Connectivity</b> - connectivity was converted to the partner api provided by Salesforce rather than utilizing CXF.  Please log an issue if you were utilizing features from the CXF config.
+          <li>TEIID-3046 <b>Recursive Common Table Expression</b> - engine and push down support was added. 
+          <li>TEIID-3163 TEIID-3167 <b>Text Table Enhancements</b> - to support a general no trim option and to use a different row delimiter.
+          <li>TEIID-991 <b>SybaseIQ Translator</b> - for use with SybaseIQ 15.1 and later.
+          <li>TEIID-2882 <b>PrestoDB Translator</b> - for use with PrestoDB 0.85 and later.
+          <li>TEIID-1091 <b>Additional SQL/XML Support</b> - XMLEXISTS, XMLTEXT, and XMLCAST were added.
+          <li>TEIID-3216 <b>Update Support for Google Spreadsheets</b>
+          <li>TEIID-2384 <b>Geospatial Support</b> - contributed by Tom Arnold.  Adds a geometry type and several functions.  See the reference for more.
+          <li>TEIID-2816 <b>Hbase Support</b> - based upon the Phoenix JDBC Drirver.
+          <li>TEIID-3043 <b>Docker Image</b> - can now be produced by the build.
+          <li>TEIID-2694 <b>REST Service</b> - Generated REST web services now support larger binary payloads.%table
   %tbody
     %tr
       %td{width:"50%"}
