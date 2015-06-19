@@ -16,10 +16,39 @@ title: Roadmap
     %a{href: "https://jira.jboss.org/jira/browse/TEIID"} JIRA page
   Future releases:
 %ul
+  %li Teiid 9 - targeted to Wildfly, more flexible metadata, and more scalability.
   %li Future Work -  more seamless drop-in scenarios.  Better built-in support for scale out scenarios.
 %p Other pending feature sets include integrated security modeling, and integration with ETL and BI tooling.
 %p Past Releases:
 %ul
+  %li
+    8.11
+    %ul
+      <li>TEIID-3372 <b>Multiple metadata</b> elements can now be used to configure a vdb.
+      <li>TEIID-3369 <b>Custom query rewrite</b> - via a configurable PreParser.
+      <li>TEIID-3389 <b>Kerberos Delegation</b> JDBC driver can now participate in kerberos delegation based authentication
+      <li>TEIID-3390 <b>SQL/XML improvements</b> in performance and disk utilization.
+      <li>TEIID-3362 <b>ARRAYITERATE</b> system procedure for iterating over an array.
+      <li>TEIID-3393 <b>Embedded AdminApi</b> is now available from EmbeddedServer.getAdmin.
+      <li>TEIID-3270 <b>Virtual Functions</b> can not be defined with procedure syntax.
+      <li>TEIID-3434 <b>More caching control</b> over ttls in the result set cache down to the schema/table level.
+      <li>TEIID-3412 <b>MS Access</b> support via the UCanAccess driver.
+      <li>TEIID-3371 <b>EAP 6.4</b> as the target platform.
+      <li>TEIID-3491 <b>REGEXP_REPLACE</b> function added
+  %li
+    8.10
+    %ul
+      <li>TEIID-3192 <b>Salesforce Connectivity</b> - connectivity was converted to the partner api provided by Salesforce rather than utilizing CXF.  Please log an issue if you were utilizing features from the CXF config.
+      <li>TEIID-3046 <b>Recursive Common Table Expression</b> - engine and push down support was added. 
+      <li>TEIID-3163 TEIID-3167 <b>Text Table Enhancements</b> - to support a general no trim option and to use a different row delimiter.
+      <li>TEIID-991 <b>SybaseIQ Translator</b> - for use with SybaseIQ 15.1 and later.
+      <li>TEIID-2882 <b>PrestoDB Translator</b> - for use with PrestoDB 0.85 and later.
+      <li>TEIID-1091 <b>Additional SQL/XML Support</b> - XMLEXISTS, XMLTEXT, and XMLCAST were added.
+      <li>TEIID-3216 <b>Update Support for Google Spreadsheets</b>
+      <li>TEIID-2384 <b>Geospatial Support</b> - contributed by Tom Arnold.  Adds a geometry type and several functions.  See the reference for more.
+      <li>TEIID-2816 <b>Hbase Support</b> - based upon the Phoenix JDBC Drirver.
+      <li>TEIID-3043 <b>Docker Image</b> - can now be produced by the build.
+      <li>TEIID-2694 <b>REST Service</b> - Generated REST web services now support larger binary payloads.
   %li
     8.9
     %ul
