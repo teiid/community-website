@@ -20,22 +20,37 @@ title: Teiid Homepage
       %a.accordion-toggle.in{"data-parent" => "#accordionAnnounce", "data-toggle" => "collapse", href: "#collapseTwo"}
         %h4
           .icon.icon-asterisk
-          Announcement: 8.11 Final Released on June 19th, 2015
+          Announcement: 8.12 Final Released on October 15th, 2015
     #collapseTwo.accordion-body.collapse
       .accordion-inner
-        %p Teiid 8.11 for EAP 6.4 Alpha is now available. The main features are:
+        %p Teiid 8.12 for EAP 6.4 Alpha is now <a href="http://http://teiid.jboss.org/downloads/">available</a>. The main features are:
         %ul
-          <li>TEIID-3372 <b>Multiple metadata</b> elements can now be used to configure a vdb.
-          <li>TEIID-3369 <b>Custom query rewrite</b> - via a configurable PreParser.
-          <li>TEIID-3389 <b>Kerberos Delegation</b> JDBC driver can now participate in kerberos delegation based authentication
-          <li>TEIID-3390 <b>SQL/XML improvements</b> in performance and disk utilization.
-          <li>TEIID-3362 <b>ARRAYITERATE</b> system procedure for iterating over an array.
-          <li>TEIID-3393 <b>Embedded AdminApi</b> is now available from EmbeddedServer.getAdmin.
-          <li>TEIID-3270 <b>Virtual Functions</b> can not be defined with procedure syntax.
-          <li>TEIID-3434 <b>More caching control</b> over ttls in the result set cache down to the schema/table level.
-          <li>TEIID-3412 <b>MS Access</b> support via the UCanAccess driver.
-          <li>TEIID-3371 <b>EAP 6.4</b> as the target platform.
-          <li>TEIID-3491 <b>REGEXP_REPLACE</b> function added
+          <li>TEIID-3411 <b>LDAP modeling</b> can now better account for associations defined by multivalued attributes.
+          <li>TEIID-3323 <b>Vertica translator</b> added.
+          <li>TEIID-3515 TEIID-3530 <b>Dependent join enhancements</b> in hints and pushdown planning.
+          <li>TEIID-2883 <b>Actian Vector in Hadoop</b> Translator added
+          <li>TEIID-3595 TEIID-3594 <b>Logging Enhancements</b> for command and audit logging
+          <li>TEIID-3546 <b>IS DISTINCT FROM</b> syntax support added for use in procedures.
+          <li>TEIID-3521 <b>Swagger Support</b> for auto-generated REST web services
+          <li>TEIID-3652 <b>Additional OUTER JOIN planning</b> to allow more flexibility in join ordering
+          <li>TEIID-3668/TEIID-3618 <b>OAuth Support</b>  with JWT Bearer Access Token and Salesforce SSO using OAuth2 (RefreshToken, JWT)
+          <li>TEIID-3712 <b>Date/Time Keyword Literal</b> support was added in the parser.
+          <li>TEIID-3722 <b>Option to not widen comparisons to string</b> was added via the system property org.teiid.widenComparisonToString
+          <li>TEIID-3327 <b>OSIsoft PI translator</b> added for use with the PI JDBC driver.
+          <li>TEIID-3727 <b>Salesforce Translator</b> added a translator and resource-adapter based on Salesforce Partner API 34
+          <li>TEIID-3370 <b>OData4 Translator</b> added new translator to read/write from any compliant OData V4 source
+
+#accordionAnnounce.accordion
+  .accordion-group.alert.alert-block
+    .accordion-heading
+      %a.accordion-toggle.in{"data-parent" => "#accordionAnnounce", "data-toggle" => "collapse", href: "#collapseTwo"}
+        %h4
+          .icon.icon-asterisk
+          Announcement: Teiid wins a Bossie on September 17th, 2015
+    #collapseTwo.accordion-body.collapse
+      .accordion-inner
+        See our 
+        %a{href: "http://teiid.blogspot.com/2015/09/teiid-earns-2015-infoworld-bossie.html"} announcement post.
 %table
   %tbody
     %tr
