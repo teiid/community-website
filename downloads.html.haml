@@ -22,9 +22,9 @@ title: Downloads
         / <a class="td-download" href="https://sourceforge.net/projects/teiid/files/teiid-8.3.1.patch.zip/download">8.3 Patch 2****</a>
         /%a.td-download{href: "http://sourceforge.net/projects/resteasy/files/Resteasy%20JAX-RS/2.3.6.Final/resteasy-jaxrs-2.3.6.Final-all.zip/download"} RestEasy JAXRS Patch****
       %td
-        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/8.11.5/teiid-8.11.5-jboss-dist.zip", onclick:"var that=this;_gaq.push(['_trackEvent','Download','Runtime',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 8.11.5 * ****
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/8.11.5/teiid-8.11.5-jboss-dist.zip", onclick:"var that=this;_gaq.push(['_trackEvent','Download','Runtime',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 8.11.5 *
         %br/
-        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/8.11.5/teiid-8.11.5-server.zip", onclick:"var that=this;_gaq.push(['_trackEvent','Download','Runtime',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 8.11.5 With EAP ****
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/8.11.5/teiid-8.11.5-server.zip", onclick:"var that=this;_gaq.push(['_trackEvent','Download','Runtime',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 8.11.5 With EAP
         / <a class="td-download" href="https://sourceforge.net/projects/teiid/files/teiid-8.3.1.patch.zip/download">8.3 Patch 2****</a>
         /%a.td-download{href: "http://sourceforge.net/projects/resteasy/files/Resteasy%20JAX-RS/2.3.6.Final/resteasy-jaxrs-2.3.6.Final-all.zip/download"} RestEasy JAXRS Patch****
       %td
@@ -39,7 +39,7 @@ title: Downloads
       %td
         %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/8.11.5/teiid-8.11.5-embedded-dist.zip", onclick:"var that=this;_gaq.push(['_trackEvent','Download','Embedded',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 8.11.5 **
       %td
-        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/8.13.0.Alpha1/teiid-8.13.0.Alpha1-embedded-dist.zip", onclick:"var that=this;_gaq.push(['_trackEvent','Download','Embedded',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 8.13 Alpha1**
+        %a.td{href: "https://github.com/teiid/teiid-embedded-examples"} 8.13 Alpha1**
     %tr.evenRow
       %td Teiid AdminShell
       %td
@@ -107,15 +107,12 @@ title: Downloads
   %strong EAP 6.4 Alpha
   %br/
   %b ** IMPORTANT NOTE:
-  The embedded kit is provided as a tech preview.
+  The embedded kit is being removed.  You should use maven to directly control what features you need.  See 
+  %a{href: "https://github.com/teiid/teiid-embedded-examples"} The Embedded Examples
   %br/
   %b ***
   See the
   %a{href: "https://community.jboss.org/wiki/NewTeiidRHQPluginForTeiid8x"} RHQ plugin installation instructions.
-  %br/
-  %b **** Know Issue:
-  %a{href: "https://issues.jboss.org/browse/TEIID-3206"} TEIID-3206
-  highlights an issue with JBoss JCA and testing connections.  If you use the admin console for testing connections, then follow the instructions on the issue to upgrade the EAP community release to IronJacamar 1.0.26.Final.
   
 %p
   %a.td-download{href: "http://sourceforge.net/projects/teiid/files/teiid/"} All prior releases
