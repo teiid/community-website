@@ -90,7 +90,7 @@ title: Feature Matrix
         JDBC access to data across multiple sources
         %br/
         JDBC access to runtime metadata describing sources
-      %td Yes (no remote access)
+      %td Yes
       %td Yes
       %td Yes
     %tr.oddRow{valign: "top"}
@@ -98,7 +98,7 @@ title: Feature Matrix
         ODBC access to data across multiple sources
         %br/
         ODBC access to runtime metadata describing sources
-      %td No
+      %td Yes
       %td Yes
       %td Yes
     %tr.evenRow{valign: "top"}
@@ -195,8 +195,16 @@ title: Feature Matrix
   %tbody
     %tr.oddRow{valign: "top"}
       %td
+        %a{href: "#{site.base_url}/basics/glossary#O"} OData
+      %td v2, v4
+      %td
+        %a{href: "http://www.odata.org/", target: "_blank"} OASIS
+      %td
+        RESTful API for exposing and consuming data.
+    %tr.oddRow{valign: "top"}
+      %td
         %a{href: "#{site.base_url}/basics/glossary#S"} SQL
-      %td SQL-92
+      %td SQL-92 - SQL-2003
       %td
         %a{href: "http://www.itl.nist.gov/div897/ctg/dm/sql_info.html", target: "_blank"} ANSI, ISO
       %td
@@ -206,15 +214,15 @@ title: Feature Matrix
     %tr.evenRow{valign: "top"}
       %td
         %a{href: "#{site.base_url}/basics/glossary#J"} JDBC
-      %td 3.0
+      %td 4.0
       %td
-        %a{href: "http://java.sun.com/", target: "_blank"} Sun
+        %a{href: "http://www.oracle.com/technetwork/java/index.html", target: "_blank"} Oracle
       %td
         The primary
         %a{href: "#{site.base_url}/basics/glossary#api"} API
         for accessing Teiid and the Teiid Server. In addition, JDBC-accessible sources can be imported into Teiid Designer and integrated as
-        %a{href: "#{site.base_url}/basics/glossary#datasource"} data             sources
-        into Teiid, using one of the many JDBC connectors           provided.
+        %a{href: "#{site.base_url}/basics/glossary#datasource"} data sources
+        into Teiid, using one of the many JDBC connectors provided.
     %tr.oddRow{valign: "top"}
       %td
         %a{href: "#{site.base_url}/basics/glossary#O"} ODBC
@@ -330,6 +338,14 @@ title: Feature Matrix
       %th{width: "157"} Standards Body
       %th Notes
   %tbody
+    %tr.evenRow{valign: "top"}
+      %td
+        %a{href: "#{site.base_url}/basics/glossary#O"} OData
+      %td v2, v4
+      %td
+        %a{href: "http://www.odata.org/", target: "_blank"} OASIS
+      %td
+        RESTful API for exposing and consuming data.
     %tr.oddRow{valign: "top"}
       %td
         %a{href: "#{site.base_url}/basics/glossary#S"} SOAP
@@ -370,15 +386,15 @@ title: Feature Matrix
     %tr.oddRow{valign: "top"}
       %td
         %a{href: "#{site.base_url}/basics/glossary#J"} JDBC
-      %td 3.0
+      %td 4.0
       %td
-        %a{href: "http://java.sun.com/", target: "_blank"} Sun
+        %a{href: "http://www.oracle.com/technetwork/java/index.html", target: "_blank"} Oracle
       %td API to Teiid and Teiid Server. JDBC connectivity to data sources is also supported, as is importing of metadata information from JDBC sources to define a VDB.
     %tr.evenRow{valign: "top"}
-      %td J2EE
-      %td 1.4
+      %td Java EE
+      %td 1.6
       %td
-        %a{href: "http://java.sun.com/j2ee/1.4/index.jsp", target: "_blank"} Sun
+        %a{href: "http://docs.oracle.com/javaee/6/", target: "_blank"} Oracle
       %td Various J2EE standards used, such as JTA.
     %tr.oddRow{valign: "top"}
       %td
@@ -399,7 +415,7 @@ title: Feature Matrix
     %tr.oddRow{valign: "top"}
       %td
         %a{href: "#{site.base_url}/basics/glossary#S"} SSL
-      %td 3.0
+      %td 4.0
       %td Netscape
       %td Secure connections.
     %tr.evenRow{valign: "top"}
