@@ -14,3 +14,4 @@ stylesheets/_config-variables.less
 
 ## Ruby tools
 .rvmrc
+/cache/
