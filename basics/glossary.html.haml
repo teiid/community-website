@@ -55,64 +55,64 @@ title: Glossary
         %dd
           Refers to the decoupling of how information is presented to information consumers (users or applications) from how the information is represented in underlying
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data sources
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data sources
           Abstraction is achieved through two key technical capabilities:
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} federation
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} federation
           and
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} modeling
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} modeling
         %dd
           Teiid provides information abstraction through the use of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           and
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XML
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} views
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} views
           which are defined in the
           %span.product Designer
           and packaged in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} VDBs
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} VDBs
           for execution by the
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine
         %a{:name => "accesspattern"}
         %dt access pattern
         %dd
           Constraints imposed on
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} criteria
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} criteria
           for particular
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} columns
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} columns
           in order for a query to be processed.  Often, these criteria are imposed by different (non-
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> JDBC
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> JDBC
           )
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data sources
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data sources
         %dd
           Teiid provides the means to define access patterns in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} models
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} models
           using the
           = succeed "," do
             %span.product Designer
           which are then enforced when processing
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} queries
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} queries
           by the
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine
         %a{:name => "acid"}
         %dt
           ACID (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> transactions
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> transactions
           )
         %dd
           The principles that define the characteristics of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} transactions
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} transactions
           in a two-phase commit system.  These principles are:
         %dd
           %ul
             %li
               %strong Atomicity
               \- 'All or none.'  Changes to a
-              %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data source
+              %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data source
               are grouped as an indivisible unit, which either completely succeeds or fails and leaves the system in the original state before the changes were attempted.
             %li
               %strong Consistency
@@ -128,13 +128,13 @@ title: Glossary
         %dd
           The capability to
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} configure
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} configure
           monitor, and manage the runtime operation of a system.
         %a{:name => "administrativeapi"}
         %dt administrative API
         %dd
           An
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} API
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} API
           for administering a system.
         %dd
           Teiid provides an Admin API that can be used to perform most of the functions available in the
@@ -144,13 +144,13 @@ title: Glossary
         %dt administrator
         %dd
           A person who has privileges to
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} administer
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} administer
           a system.
         %dd There are several administrative roles that can configure and manage various aspects of the system.
         %a{:name => "alias"}
         %dt
           alias (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> query
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> query
           )
         %dd In the context of a SQL query, an alias is a user-specified alternate name for referencing a table or column.  Technically, these are known as 'output names' (for columns) and 'correlation names' (for tables), but they are both commonly referred to as 'aliases'.
         %a{:name => "api"}
@@ -159,36 +159,36 @@ title: Glossary
         %dd
           A standard API for query access to  Teiid is
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} JDBC
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} JDBC
           Teiid also provides an
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Admin API
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Admin API
           for  administering its products.
         %a{:name => "applicationserver"}
         %dt application server
         %dd
           A software system that hosts applications written to a standard specification.  Java provides the J2EE standard to which Java application servers conform.  Application servers often act as
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web servers
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web servers
           hosting Web-based applications.  So, Web and
           = succeed "-based" do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web services
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web services
           applications defined in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} WAR
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} WAR
           files can be deployed to J2EE app servers such as JBoss.
         %a{:name => "architecture"}
         %dt architecture
         %dd
           Describes a software system at a high level.  Two common types of architectures are client-server and
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} service-oriented architecture (SOA)
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} service-oriented architecture (SOA)
         %a{:name => "authentication"}
         %dt authentication
         %dd
           Verification that a user attempting to access a system is allowed to access the system. The user tries to
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} log on
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} log on
           to the system using a set of
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} credentials
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} credentials
         %a{:name => "authorization"}
         %dt authorization
         %dd Access control to resources managed or accessed by a system.
@@ -198,7 +198,7 @@ title: Glossary
         %dd
           Also known as
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} entitlements
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} entitlements
       %div{:align => "right"}
         %a{:href => "#Top"} Top of page
       %a.anchorfix{:name => "B"}
@@ -208,25 +208,25 @@ title: Glossary
         %dt batch
         %dd
           A set of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} records
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} records
           returned in response to a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query
         %a{:name => "batchupdates"}
         %dt
           batched updates (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> SQL
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> SQL
           )
         %dd The batch update feature allows multiple update operations to be executed at once as a single batch, rather than as independent operations.  In some cases, this can greatly improve performance.
         %a{:name => "blob"}
         %dt BLOB
         %dd
           Binary large object.  This is a term commonly used in relational
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} DBMS
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} DBMS
           systems.
         %dd
           Teiid supports querying and updating of BLOBs and
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} CLOBs.
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} CLOBs.
         %a{:name => "bootstrapproperties"}
         %dt bootstrap properties
         %dd The set of properties required for a system to start up.
@@ -238,51 +238,51 @@ title: Glossary
         %a{:name => "choice"}
         %dt
           choice (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> XML
           )
         %dd A node in an XML Schema that defines the possible set of XML elements that can be at that point.
         %a{:name => "classpath"}
         %dt classpath
         %dd
           The path that is used by the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Java virtual machine
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Java virtual machine
           when resolving dependencies required for an application to execute.  Typically, the classpath specifies a semi-colon delimited list of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} JAR
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} JAR
           files containing bytecode for Java classes.
         %a{:name => "clob"}
         %dt CLOB
         %dd
           Character large object.  This is a term commonly used in relational
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} DBMS
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} DBMS
           systems.
         %dd
           Teiid supports querying and updating of CLOBs and
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} BLOBs.
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} BLOBs.
         %a{:name => "column"}
         %dt
           column (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> relational
           )
         %dd
           A structural entity in a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           system corresponding to an atomic value.  Columns are contained by
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} tables
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} tables
           Columns have a type (such as 'char', 'integer', etc); this is often referred to as a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} datatype
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Record
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} datatype
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Record
           values for a column must conform to the column's defined type.
         %a{:name => "command"}
         %dt command
         %dd
           A specification of an operation to be performed.  In SQL, a command is  issued in terms of a SQL
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} statement
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} statement
         %dd
           The term
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} &quot;query&quot;
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} &quot;query&quot;
           is often used as a  generic form of command.
         %a{:name => "component"}
         %dt component
@@ -291,13 +291,13 @@ title: Glossary
         %dt configuration
         %dd
           The definition of essential and customizable parameters that control how a system executes.  Configuration is typically considered an
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} administrative
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} administrative
           function, to be performed by
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} administrators
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} administrators
         %dd
           Teiid provides a variety of ways to configure its products, including the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Admin API
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Admin API
           and the
           = succeed "." do
             %span.product Enterprise Console
@@ -307,29 +307,29 @@ title: Glossary
         %dd
           Connections in  Teiid are created through
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} JDBC
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} JDBC
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} ODBC
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} ODBC
           or
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} SOAP
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} SOAP
         %a{:name => "connectionpooling"}
         %dt connection pooling
         %dd
           Use of a shared set of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} connections
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} connections
           to a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data source
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data source
           for efficiency and performance.  When the system needs a connection, it obtains one from the pool, then returns it to the pool when finished with it.
         %dd
           Teiid's
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} connector framework
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} connector framework
           provides customizable connection pooling capabilities to
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} connectors
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} connectors
           Connectors can be pooled based on a variety of 'keys', including security
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} credentials
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} credentials
         %a{:name => "connector"}
         %dt connector (aka connector type)
         %dd
@@ -338,98 +338,98 @@ title: Glossary
             %em adapters
         %dd
           Teiid provides an extensible
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} connector framework
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} connector framework
           into which pre-defined or custom connectors can be plugged, providing access to any data source.
         %dd
           .info_box
             .box_content
               See
-              %a{:href => "/projects/teiid/Documentation/Connectors.html"} Connector Concepts
+              %a{:href => "#{site.base_url}/basics/connectors"} Connector Concepts
               for more detailed information on connectors and connector bindings.
         %a{:name => "connectorbinding"}
         %dt connector binding
         %dd
           A runtime component of the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine
           that binds a connector type to a particular data source.
         %a{:name => "connectorcapabilities"}
         %dt connector capabilities
         %dd
           Functionality that is supported by a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} connector
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} connector
           For example, a connector may support &quot;outer join&quot; operations, or the &quot;concat&quot; function.  The connector capabilities define the set of operations that can be
-          %a.glossary_ref{:href => "/projects/federate/Documentation/Glossary/Glossary#pushdown"} pushed down
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary#pushdown"} pushed down
           to the data source a connector is bound to.
         %a{:name => "connectorframework"}
         %dt connector framework
         %dd
           A part of the  Teiid architecture where
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} connectors
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} connectors
           can be defined and utilized.
         %a{:name => "connectortype"}
         %dt connector type
         %dd
           See
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} connector
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} connector
         %a{:name => "console"}
         %dt
           console (aka Enterprise Console)
           %br/
         %dd
           A
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} tool
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} tool
           used for
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} administering
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} administering
           a system.
         %a{:name => "contextcriteria"}
         %dt
           context criteria (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> XML
           )
         %dd A special form of criteria that can be applied when querying an XML View.
         %a{:name => "costing"}
         %dt
           costing (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> query
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> query
           )
         %dd
           The use of relative values of accessing and performing operations on data, used to execute a query
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} command
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} command
           in the most efficient manner possible.
         %a{:name => "credentials"}
         %dt credentials
         %dd
           Information used to verify that a person or resource can access a system during the process of
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} authentication
+            %a.glossary_ref{:href => "/basics/glossary"} authentication
           Typically, a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} username
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} username
           and
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} password
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} password
           are used as credentials for
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} logon
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} logon
           to a system.
         %a{:name => "criteria"}
         %dt
           criteria (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> query
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> query
           )
         %dd Constraints specified in a query.
         %a{:name => "crud"}
         %dt
           CRUD (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> query
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> query
           )
         %dd
           Acronym describing the four most common data manipulation operations in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           systems: create, read, update, and delete.
         %a{:name => "cursor"}
         %dt
           cursor (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> query
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> query
           )
         %dd An abstraction of a result set that shows only the row at the current location and allows for scrolling forward (and possibly backwards) through the cursor.
       %div{:align => "right"}
@@ -441,24 +441,24 @@ title: Glossary
         %dt data service
         %dd
           A class of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} services
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} services
           that are specifically related to accessing,
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} integrating
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} integrating
           and understanding the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} semantics
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} semantics
           of data or information.
         %dd
           In the context of a
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web services architecture
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web services architecture
           data services correspond to
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web services
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web services
         %dd
           Teiid provides extensive support for data services, for both Web services and
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} service-oriented architectures
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} service-oriented architectures
         %dd
           .info_box
             .box_content
@@ -466,9 +466,9 @@ title: Glossary
               %br/
               %ul
                 %li
-                  %a{:href => "/projects/teiid/Documentation/Data-Services.html"} Basic data services concepts
+                  %a{:href => "#{site.base_url}/basics/dataservices"} Basic data services concepts
                 %li
-                  %a{:href => "/projects/teiid/Documentation/SOAs.html"} SOAs and data services
+                  %a{:href => "#{site.base_url}/basics/soa"} SOAs and data services
                   %a{:href => "http://www.metamatrix.com/pages/products/about_data_services.htm"}
                     %br/
         %a{:name => "datasource"}
@@ -476,22 +476,22 @@ title: Glossary
         %dd Any system that contains or can emit data.
         %dd
           Teiid provides a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} connector framework
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} connector framework
           for integrating data sources.
         %a{:name => "datatype"}
         %dt datatype
         %dd
           The type that a particular data value, such as for a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} column
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} column
           or an
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XML
           element or attribute, must conform to.  Datatypes are defined in
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} schemas
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} schemas
         %dd
           Teiid&nbsp; Designer supports the definition of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} semantic
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} semantic
           datatypes based on the
           %a{:href => "http://www.w3.org/TR/2001/REC-xmlschema-2-20010502/"} XML Schema Datatypes
           specification.
@@ -500,23 +500,23 @@ title: Glossary
         %dd Database management system.
         %dd
           Teiid is not itself a database management system, although it can appear to be one to a system that uses the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} JDBC
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} JDBC
           API to access data from multiple sources through a single interface.
         %a{:name => "decryption"}
         %dt decryption
         %dd
           The conversion of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} encrypted
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} encrypted
           text back into a human-readable ('cleartext') form.
         %dd Teiid uses encryption and decryption when sending and storing password information.
         %a{:name => "dependentjoin"}
         %dt dependent join
         %dd
           A special type of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} join
           used to optimize performance in a
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} federated
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} federated
           multi-source query.  In a dependent join, the two tables involved are accessed sequentially, rather than in parallel.  The records from the primary table matching the criteria are retrieved first, then the key values are used to query the dependent table, minimizing the data returned from the seconds table.  The resulting records are then joined.
       %div{:align => "right"}
         %a{:href => "#Top"} Top of page
@@ -534,16 +534,16 @@ title: Glossary
         %dt EII
         %dd
           Enterprise Information Integration.  This is a market segment defined by MetaMatrix in 2000, targeted at providing integration using a federation approach. JBoss has subsequently leveraged its experience in EII to provide solutions for defining
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data services
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data services
           for
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} service-oriented architectures
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} service-oriented architectures
         %a{:name => "encryption"}
         %dt encryption
         %dd
           The conversion of textual information into a form that cannot be read or processed in a meaningful manner without the modified text being
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} decrypted
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} decrypted
         %dd Teiid uses encryption to hide passwords used to interface with data sources.
         %a{:name => "entitlements"}
         %dt entitlements
@@ -551,33 +551,33 @@ title: Glossary
           Define information that a particular user is
           %em entitled
           or
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} authorized
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} authorized
           to view or access.  Typically defined in terms of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} CRUD
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} CRUD
           operations on a set of metadata resources such as tables or columns.
         %a{:name => "extensible"}
         %dt extensible
         %dd Refers to the capability of a system to have its functionality extended by users, without the provider of the system making the changes.
         %dd
           Teiid offers extensibility in many forms.  Teiid provides a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} connector framework
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} connector framework
           and
           %strong connector development kit
           for plugging custom
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} connectors
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} connectors
           into the
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine
           Custom scalar
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} functions
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} functions
           can be defined and integrated into both the modeling and execution engine.  Similarly, custom simple
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} datatypes
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} datatypes
           can be defined and used for modeling your information. JBEDSP provides an extension point for integrating a custom
           = succeed "," do
             %em membership service
           for
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} authentication
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} authentication
       %div{:align => "right"}
         %a{:href => "#Top"} Top of page
       %a#F.anchorfix{:name => "F"}
@@ -588,86 +588,86 @@ title: Glossary
         %dd
           A query that unifies information from multiple disparate
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} sources
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} sources
         %dd
           Users issue federated queries against a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} virtual database
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} virtual database
         %a{:name => "federation"}
         %dt federation
         %dd
           Unifying or integrating of information from multiple
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data sources
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data sources
           making the information appear as if was in a single data source accessible through a single
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} API
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} API
           Federation is a key technical capability required to provide
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} information abstraction
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} information abstraction
         %dd
           A
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} virtual database
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} virtual database
           is used to represent a consistent set of models defining the information that can be federated.  The VDB is defined in the
           %span.product Designer
           and deployed to the
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Federated queries
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Federated queries
           can be issued against the deployed VDB, and are processed by the query engine.
         %dd
           See also
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} integration
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} integration
         %a{:name => "firewall"}
         %dt firewall
         %dd Software that prevents unauthorized access to an internal network.
         %dd
           Products such as  Teiid must be able to be connected to through a firewall, and must be able to connect to
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data sources
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data sources
           through a firewall.
         %a{:name => "foreignkey"}
         %dt foreign key
         %dd
           A type of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relationship
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relationship
           in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           models, involving a reference of one or more fields to a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} primary key
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} primary key
           in another table.
         %dd
           Teiid supports the import and modeling of foreign keys for relational
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data sources
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data sources
           as well as for relational
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} views
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} views
         %a{:name => "fullouterjoin"}
         %dt full outer join
         %dd
           A type of operation in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           systems that
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} joins
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} joins
           information from two
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} tables
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} tables
           if matching records exist in either table plus additional records for all unmatched rows (left and right side) in each table.  A full outer join is basically an
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} inner join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} inner join
           plus any unmatched records in both the left and the right tables.
         %dd
           This is a combined form of a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} left outer join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} left outer join
           and a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} right outer join
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} right outer join
         %a{:name => "function"}
         %dt function
         %dd
           Teiid
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} SQL
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} SQL
           supports two kinds of functions: scalar and aggregate.
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Scalar functions
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Scalar functions
           operate on 0 or more values in a row and return a single value (examples:  5 + 2, length('string')).  Aggregate functions operate on a collection of values across many rows and return a single value (examples:  COUNT(*), SUM(price*quantity), MIN(birthday)).
         %dd The query engine allows a user to define custom scalar functions.
       %div{:align => "right"}
@@ -682,11 +682,11 @@ title: Glossary
         %a{:name => "hashjoin"}
         %dt
           hash join (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> join
           )
         %dd
           A type of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} join
           algorithm in which keys from one set of records are used to match up with the keys from the other set.
       %div{:align => "right"}
         %a{:href => "#Top"} Top of page
@@ -697,71 +697,71 @@ title: Glossary
         %dt inner join
         %dd
           A
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} join
           that returns only
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} records
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} records
           that match, based on some criteria.
         %dd
           See also
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} outer join
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} outer join
         %a{:name => "insert"}
         %dt
           insert (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> SQL
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> SQL
           )
         %dd
           The
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} SQL
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} SQL
           operation used to 'add'
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} records
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} records
           to  a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} table
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} table
           in a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           data source.  The 'C' in
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} CRUD
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} CRUD
         %a{:name => "integration"}
         %dt integration
         %dd
           Tying information together to use for a purpose.  In its simplest sense, integration refers to
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} joining
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} joining
           data or
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} unioning
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} unioning
           data, often from multiple
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} sources
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} sources
           This is often referred to as
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} federation
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} federation
           More powerful integration is provided when federated queries and procedures are encapsulated into virtual
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} views
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} views
           This provides a level of decoupling of consuming applications from physical data storage, and is often referred to as
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} abstraction
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} abstraction
         %dd
           Teiid provides
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} model-based
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} model-based
           integration capabilities - both federation and abstraction - with its products.  Consistent models of data sources, views,
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web services
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web services
           are bundled into a container called a
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} virtual database
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} virtual database
           or VDB.  A VDB is deployed to the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine
           for runtime execution.
         %a{:name => "interoperability"}
         %dt interoperability
         %dd
           The ability of systems to work together.  For a sofwtare system, this can cover a broad range of system interactions, from operating systems to application servers to other software systems.  Often, interoperability is achieved through the use of well-defined
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} APIs
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} APIs
           or by formal specifications defining the expected behavior when two systems work together in some context. As an example, the ability of different software systems to work together in a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web services
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web services
           architecture is defined by the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} WS-I
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} WS-I
           specification.
         %dd A different facet of interoperability addresses the semantic aspects of systems 'working' together.  For example, if one system thinks an 'address' includes a postal code, and another does not, then there is a semantic mismatch between those systems which may introduce problems when they exchange data.
         %dd Teiid address both facets of interoperability with a number of different systems. Designer provide tooling for defining the semantic relationships between information entities.
@@ -776,20 +776,20 @@ title: Glossary
         %dd
           An application's dependency on a set of JAR files is specified using the Java
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} classpath
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} classpath
         %a{:name => "jdbc"}
         %dt JDBC
         %dd
           A Java standard
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} API
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} API
           for interfacing with
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           systems.  Similar in concept and basic functionality to
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} ODBC
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} ODBC
         %dd
           Teiid provides a
-          / <a href="/projects/federate/Documentation/Glossary/features/JDBCSupport">
+          / <a href="#{site.base_url}/basics/glossary#jdbc">
           JDBC
           / </a>
           interface to its
@@ -799,19 +799,19 @@ title: Glossary
         %dt join
         %dd
           A type of operation in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           systems that merges records from two different tables together based on matching join criteria specified on fields in the two tables.  Often used synonymously with the term '
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> inner join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> inner join
           '.
         %dd
           See also
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} outer join
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} outer join
         %a{:name => "jta"}
         %dt JTA
         %dd
           Java Transaction API.  &quot;JTA  specifies standard Java interfaces between a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} transaction manager
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} transaction manager
           and the parties involved in a distributed transaction system: the resource manager, the application server, and the transactional applications.&quot;  (
           %a.external_ref{:href => "http://java.sun.com/products/jta/", :target => "_blank"}> Sun
           )
@@ -819,9 +819,9 @@ title: Glossary
         %dt JTS
         %dd
           \&quot;Java Transaction Service (JTS) specifies the implementation of a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} transaction manager
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} transaction manager
           which supports the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Java Transaction API (JTA)
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Java Transaction API (JTA)
           1.0 Specification at the high-level and implements the Java mapping of the OMG Object Transaction Service (OTS) 1.1 Specification at the low-level.&quot; (
           %a.external_ref{:href => "http://java.sun.com/products/jts/"}> Sun
           )
@@ -846,36 +846,36 @@ title: Glossary
         %dt left outer join
         %dd
           A type of operation in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           systems that
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} joins
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} joins
           'secondary' information if it exists with records from a 'primary'
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} table
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} table
           where the first table specified (the 'left' one) is the primary one.  A left outer join is basically an
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} inner join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} inner join
           plus any unmatched records in the left table.
         %dd
           See also
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} right outer join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} right outer join
           and
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} outer join
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} outer join
         %a{:name => "license"}
         %dt license
         %dd
           Legal agreement controlling usage rights for a software product.  Teiid is distributed under the LGPL.&nbsp; See
-          %a{:href => "/projects/teiid/about/license.html"} license
+          %a{:href => "#{site.base_url}/about/license"} license
           for more.
           %br/
         %a{:name => "logon"}
         %dt logon
         %dd
           The process users follow for establishing an
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} authenticated
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} authenticated
           connection to a system using
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} credentials
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} credentials
       %div{:align => "right"}
         %a{:href => "#Top"} Top of page
       %a#M.anchorfix{:name => "M"}
@@ -885,42 +885,42 @@ title: Glossary
         %dt manifest
         %dd
           A file inside an archive file (such as a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} JAR
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} JAR
           or
           = succeed ")" do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} WAR
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} WAR
           that defines the contents of the archive.
         %a{:name => "mapping"}
         %dt
           mapping (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> XML
           )
         %dd
           A
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} transformation
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} transformation
           from one structural form to another.  This is often used to refer to the transformation from
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           form to
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XML
           form.
         %a{:name => "mergejoin"}
         %dt
           merge join (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> join
           )
         %dd
           A type of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} join
           algorithm in which records are joined as they are processed, in a single pass.  This algorithm requires that the records be sorted first.
         %dd This algorithm will often perform best for medium to large size result sets, where the tables are about of equal size.
         %a{:name => "metadata"}
         %dt metadata
         %dd
           Data about data.  Metadata is used to describe the structural characteristics or
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} schema
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} schema
           of information and how it is stored, as well as statistical information about the data values associated with a particular set of data, and connection information for retrieving data from a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data source
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data source
         %a{:name => "model"}
         %dt model
         %dd A representation of the structure and characteristics of a set of information, and relationships between the information and other sets of information.
@@ -928,55 +928,55 @@ title: Glossary
           Teiid uses
           %em models
           to define the structure and characteristics of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data sources
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data sources
           and
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} views
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} views
           Models also define the mappings - in the form of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} transformations
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} transformations
           \- to go from sources to views, or from one set of views to another.
         %dd
           Models are visualized using
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} UML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} UML
           diagrams.
         %dd
           Models get bundled together in a consistent validated package called a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} VDB
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} VDB
           A VDB provides an abstract interface for interacting with multiple data sources as if they were a single source.
         %dd
           .info_box
             .box_content
               See
-              %a{:href => "/projects/teiid/Documentation/Models.html"} Model Concepts
+              %a{:href => "#{site.base_url}/basics/models"} Model Concepts
               for more detailed information on models and modeling.
         %a{:name => "modelclass"}
         %dt model class
         %dd
           A class of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} models
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} models
           that is used as a template for defining model instances of a particular type.  Some model classes are
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XML Service
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XML Service
           and
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web service
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web service
           Also known as a &quot;metamodel&quot;.
         %a{:name => "modeltype"}
         %dt model type
         %dd
           A category of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} models
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} models
           that distinguishes them by some essential characteristic, orthogonal to the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} model class
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} model class
           classification.  Some model types are
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} source
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} source
           for models representing data sources, and
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} views
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} views
           for models representing abstractions above the source level.
         %a{:name => "modeler"}
         %dt
@@ -984,35 +984,35 @@ title: Glossary
           %br/
         %dd
           A
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} tool
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} tool
           used for defining and maintaining
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} models
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} models
           Also used to refer to a person who uses a modeling tool.
         %a{:name => "modeling"}
         %dt modeling
         %dd
           The definition of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} models
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} models
           used for defining the structure and characteristics of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data sources
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data sources
           for
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} federation
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} federation
           and for defining the structure of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} views
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} views
           for
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} abstraction
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} abstraction
         %dd
           Teiid provides
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data services
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data services
           that are model-based.  Models are defined and maintained using the
           = succeed "," do
             %a.glossary_ref{:href => "#modeler"} Designer
           and are subsequently executed through the
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine
       %div{:align => "right"}
         %a{:href => "#Top"} Top of page
       %a#N.anchorfix{:name => "N"}
@@ -1021,11 +1021,11 @@ title: Glossary
         %a{:name => "nestedjoin"}
         %dt
           nested join (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> join
           )
         %dd
           A type of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} join
           algorithm in which the records of each table are looped over in two loops, one nested inside the other.
         %dd This algorithm will often perform best for small to medium size result sets, where one table is much smaller than the other.
       %div{:align => "right"}
@@ -1037,42 +1037,42 @@ title: Glossary
         %dt ODBC
         %dd
           Open Database Connectivity.  A standard
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} API
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} API
           for interfacing with
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           systems.  Similar in concept and basic functionality to
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} JDBC
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} JDBC
         %a{:name => "optimizer"}
         %dt
           optimizer (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> query
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> query
           )
         %dd
           See
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} planner
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} planner
         %a{:name => "outerjoin"}
         %dt outer join
         %dd
           A type of operation in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           systems that
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} joins
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} joins
           information from two
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} tables
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} tables
           if matching records exist, but also includes records from one or both sides that do not have a match in either table.  An outer join is basically an
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} inner join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} inner join
           plus any unmatched records in the left and/or right table.
         %dd
           Outer join is also used to collectively mean
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} left outer join
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} left outer join
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} right outer join
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} right outer join
           or
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} full outer join
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} full outer join
       %div{:align => "right"}
         %a{:href => "#Top"} Top of page
       %a#P.anchorfix{:name => "P"}
@@ -1081,54 +1081,54 @@ title: Glossary
         %a{:name => "parser"}
         %dt
           parser (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> query
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> query
           )
         %dd
           The component in the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine's
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine's
           processing pipeline responsible for tokenizing the user's input command and translating the user-specified text into an internal object form, using
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} metadata
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} metadata
           information.
         %dt partial results
         %dd
           Teiid provides a unique capability to obtain results from
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           systems even in the event of data source unavailability. This is especially useful when
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} unioning
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} unioning
           information from multiple sources, or when doing a
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} left outer join
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} left outer join
           where you are 'appending' columns to a master record but still want the record if the extra info is not available.
-          %a.glossary_ref{:href => "/projects/federate/Documentation/Glossary/expl/PartialResults"} Further details.
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary#PartialResults"} Further details.
         %a{:name => "planner"}
         %dt
           planner (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> query
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> query
           )
         %dd
           The component in the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine's
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine's
           processing pipeline responsible for creating the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query plan
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query plan
           that will subsequently be executed by the
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query processor
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query processor
           Also known as the
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} optimizer
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} optimizer
           because it is responsible for determining the optimal plan using
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} costing
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} costing
           information.  One common optimization technique in a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} federated
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} federated
           query planner is propagating criteria to all data sources.
         %a{:name => "preparedstatement"}
         %dt prepared statement
         %dd
           A
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} SQL
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} command
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} SQL
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} command
           that can be
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} planned
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} planned
           ahead of time for efficiency, then executed multiple times thereafter.  Typically, a prepared statement will have
           %em placeholders
           for parameter values that must be specified when the statement is executed.
@@ -1136,58 +1136,58 @@ title: Glossary
         %dt primary key
         %dd
           A field or set of fields that uniquely identifies a single record in a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} table
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} table
           A primary key is often referenced by other tables through
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} foreign keys
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} foreign keys
         %dd
           Teiid supports the import and modeling of primary keys for relational
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data sources
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data sources
           as well as for relational
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} views
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} views
         %a{:name => "procedure"}
         %dt procedure
         %dd
           A programmatic specification of how to do something.  In
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} DBMS's
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} DBMS's
           stored procedures provide the means to define data access logic.  Teiid provides the capability to define and execute
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} virtual procedures
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} virtual procedures
         %a{:name => "processor"}
         %dt
           processor (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> query
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> query
           )
         %dd
           The component in the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine's
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine's
           processing pipeline responsible for executing the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query plan
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query plan
           created by the
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query planner
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query planner
         %dd
           Some processing (typically crossing over multiple sources) is performed within the query engine, and other processing is
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} pushed down
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} pushed down
           to the data sources.
         %a{:name => "pushdown"}
         %dt pushdown
         %dd
           A technique used in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query planning
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query planning
           to most efficiently execute
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} federated
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} federated
           queries.  All operations that can be performed by a
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data source
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data source
           as defined by the
-          %a.glossary_ref{:href => "/projects/federate/Documentation/Glossary/Glossary#connectorcapabilities"} connector capabilities
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary#connectorcapabilities"} connector capabilities
           of that source, are pushed down to that source so that it can execute them in the most efficient means possible, using physical indexes.
       %div{:align => "right"}
         %a{:href => "#Top"} Top of page
@@ -1198,46 +1198,46 @@ title: Glossary
         %dt query
         %dd
           A generic term used to refer to a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} command
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} command
           issued against a system to retrieve (or update) data from a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data source
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data source
           A query is processed by a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine
         %dd
           The term is also used to refer to a read-only command issued to retrieve information from a data source.  In
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           systems, a query is executed using a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} select
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} select
           statement.
         %dd
           Teiid provides the capability to perform queries across multiple sources - using a single statement.  This is known as
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} federation
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} federation
         %a{:name => "queryengine"}
         %dt query engine
         %dd
           A software component that processes
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} queries
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} queries
           retrieving information from one or more systems and merging that information together using
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational algebra
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational algebra
           or
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XQuery
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XQuery
         %a{:name => "queryplan"}
         %dt query plan
         %dd
           An representation of a command or
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query
           determined by a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine
           for executing the command in the most efficient manner possible.  Query plans are determined by a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query planner
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query planner
           using
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} costing
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} costing
         %dd
           .info_box
             .box_content Distributed Query Planning for more detailed information on working with query plans in a distributed system.
@@ -1249,105 +1249,105 @@ title: Glossary
         %a{:name => "record"}
         %dt
           record (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> relational
           )
         %dd
           A set of values corresponding to the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} columns
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} columns
           in a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} table
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} table
           Also known as
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} tuples
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} tuples
           in relational algebra.
         %a{:name => "relational"}
         %dt relational
         %dd
           A data format or representation characterized by
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} table
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} table
           structures accessible using relational algebra.
         %a{:name => "relationship"}
         %dt relationship
         %dd
           An association between two different
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} metadata
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} metadata
           entities.  A relationship entity is itself a type of metadata entity.
         %dd
           Teiid supports model type-specific relationships, such as
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} foreign keys
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} foreign keys
           for
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           models, and
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} transformations
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} transformations
           between models, including
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} mappings
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} mappings
           from relational to
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XML
           models.  In addition,  Teiid supports the definition of generic, typed relationships between any metadata entities.&nbsp;
         %a{:name => "resolver"}
         %dt
           resolver (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> query
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> query
           )
         %dd
           The component in the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine's
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine's
           processing pipeline responsible for resolving all identifiers,
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} functions
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} functions
           and
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} datatypes
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} datatypes
           using
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} metadata
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} metadata
           information.
         %dd
           In&nbsp; Teiid , query resolution uses the metadata contained in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} models
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} models
           defined in a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} VDB
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} VDB
         %a{:name => "resultset"}
         %dt
           result set (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> query
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> query
           )
         %dd
           The response from a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} database
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} database
           or
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine
           containing the results of a user
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} command
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} command
           For a
           = succeed "-type" do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query
           command (using
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} SQL
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} SQL
           = succeed ")," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} select
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} select
           the result set contains a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} table
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} table
           structure, with the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} columns
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} columns
           specified in the
           %code select
           clause and zero or more
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} records
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} records
           that matched the specified
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} criteria
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} criteria
           in the
           %code where
           clause.
         %dd
           Teiid can also return
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XML
           results in response to SQL queries through
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} JDBC
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} JDBC
           or
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} ODBC
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} ODBC
           In this case, there is only one column in the result set, named
           = succeed "," do
             %code xml
@@ -1355,31 +1355,31 @@ title: Glossary
         %a{:name => "rewriter"}
         %dt
           rewriter (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> query
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> query
           )
         %dd
           The component in the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine's
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine's
           processing pipeline responsible for revising the syntax of a command so that it can be processed more efficiently.  The rewriter handles things like eager function evaluation (2 + 2 --&gt; 4) and mathematical simplification (x + 2 = 4 --&gt; x = 2).
         %a{:name => "rightouterjoin"}
         %dt right outer join
         %dd
           A type of operation in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           systems that
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} joins
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} joins
           'secondary' information if it exists with records from a 'primary'
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} table
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} table
           where the second table specified (the 'right' one) is the primary one.  A right outer join is basically an
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} inner join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} inner join
           plus any unmatched records in the right table.
         %dd
           See also
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} left outer join
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} left outer join
           and
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} outer join
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} outer join
       %div{:align => "right"}
         %a{:href => "#Top"} Top of page
       %a#S.anchorfix{:name => "S"}
@@ -1389,48 +1389,48 @@ title: Glossary
         %dt scalar function
         %dd
           A type of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} function
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} function
           that takes zero or more scalar arguments and returns a single scalar value.
         %a{:name => "schema"}
         %dt schema
         %dd
           A definition of the structural characteristics of a set of information.  The information within a schema, such as
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} tables
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} tables
           and
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} columns
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} columns
           for
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           systems, is a type of
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} metadata
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} metadata
           For XML systems, schemas are often represented using
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XML Schema
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XML Schema
         %a{:name => "select"}
         %dt
           select (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> SQL
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> SQL
           )
         %dd
           The
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} SQL
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} SQL
           operation used to perform read operations from a table in a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           data source..  The 'R' in
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} CRUD
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} CRUD
         %a{:name => "selectinto"}
         %dt
           select into (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> SQL
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> SQL
           )
         %dd
           The SELECT ... INTO (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> SQL
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> SQL
           ) command allows a user to execute a (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> SELECT
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> SELECT
           ) and (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> INSERT
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> INSERT
           ) the results into a table.  The insert is done in bulk and will be much faster than doing a SELECT, walking through the rows, and performing an INSERT on each row.
         %a{:name => "semantics"}
         %dt semantics
@@ -1445,12 +1445,12 @@ title: Glossary
             %li tags or keywords
             %li taxonomy information
             %li
-              %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} datatypes
+              %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} datatypes
             %li
-              %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relationships
+              %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relationships
               or associations
             %li
-              %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} transformations
+              %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} transformations
         %a{:name => "server"}
         %dt server
         %dd A software component that runs independently in one or more processes on an operating system.  Servers must be managed.
@@ -1460,39 +1460,39 @@ title: Glossary
         %dd
           A service is a fundamental concept in a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} service-oriented architecture
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} service-oriented architecture
         %a{:name => "serviceorientedarchitecture"}
         %dt service-oriented architecture
         %dd
           A software system
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} architecture
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} architecture
           based on the concept of
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} services
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} services
         %dd
           See
           = succeed "." do
-            %a{:href => "/projects/teiid/Documentation/SOAs.html"} SOAs
+            %a{:href => "#{site.base_url}/basics/soa"} SOAs
         %a{:name => "session"}
         %dt session
         %dd
           All user interaction with  Teiid occurs in the context of a user session, which is bound to a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} JDBC
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} JDBC
           connection.  Closing the JDBC connection terminates the session.  Sessions can be viewed and terminated through the
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Admin API
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Admin API
         %a{:name => "shell"}
         %dt SOA
         %dd
           See
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} service-oriented architecture
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} service-oriented architecture
         %a{:name => "soap"}
         %dt SOAP
         %dd
           Simple Object Access Protocol.  The messaging protocol used in
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web services
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web services
           See
           = succeed "." do
             %a.external_ref{:href => "http://www.w3.org/TR/soap/", :target => "_blank"} W3C specifications
@@ -1502,16 +1502,16 @@ title: Glossary
         %dd
           See
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data source
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data source
         %a{:name => "sql"}
         %dt SQL
         %dd
           Structured Query Language.  A standard query language that operates on 'tuples', defined by the ANSI and ISO organizations.  All relational
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} DBMSs
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} DBMSs
           support some flavor of SQL.
         %dd
           Teiid supports the most common data manipulation (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> CRUD
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> CRUD
           \: create, read, update, delete) functions of SQL-92.
         %a{:name => "ssl"}
         %dt SSL
@@ -1521,48 +1521,48 @@ title: Glossary
         %dd
           Used in describing at a coarse-grained level the major architectural pieces of a system.  For
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} service-oriented architectures
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} service-oriented architectures
           an 'SOA stack'.
         %a{:name => "staging table"}
         %dt
           staging table (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> XML
           )
         %dd
           A special construct used for optimizing data retrieval from sources when mapping from relational to
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XML
           format.
         %a{:name => "statement"}
         %dt statement
         %dd
           A specification of an operation to be performed.  In SQL, a command is  issued in terms of a SQL
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} command
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} command
         %dd
           The term
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} &quot;query&quot;
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} &quot;query&quot;
           is often used as a  generic form of command.
         %a{:name => "storedprocedure"}
         %dt stored procedure
         %dd
           A type of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} procedure
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} procedure
           available in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} DBMS's
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} DBMS's
         %a{:name => "streaming"}
         %dt streaming
         %dd The transmission of data between software components in an incremental manner.
         %dd
           Teiid uses streaming when returning
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XML
           documents,
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} CLOBs
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} CLOBs
           and
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} BLOBs
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} BLOBs
       %div{:align => "right"}
         %a{:href => "#Top"} Top of page
       %a#T.anchorfix{:name => "T"}
@@ -1571,22 +1571,22 @@ title: Glossary
         %a{:name => "table"}
         %dt
           table (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> relational
           )
         %dd
           A two-dimensional structure in a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           system consisting of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} columns
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} columns
           and
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} records
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} records
           Records are uniquely identified by
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} primary keys
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} primary keys
           Sets of one or more fields, called
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} foreign keys
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} foreign keys
           can contain references to the primary keys of records in other tables.
         %a{:name => "tool"}
         %dt tool
@@ -1596,50 +1596,50 @@ title: Glossary
         %dt transaction
         %dd
           A transaction groups a set of database operations together and they are either applied or fail as a unit.  Transactional integrity is based on the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} ACID
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} ACID
           principles.
         %dd
           The
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} JDBC
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} JDBC
           API supports local (single database) and
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XA
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XA
           (multi database) transactions.  Teiid supports
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XA
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XA
           transactions across multiple XA-enabled databases.
         %a{:name => "transactionmanager"}
         %dt transaction manager
         %dd
           A software component or system that controls the execution of distributed
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} transactions
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} transactions
         %dd Teiid uses a transaction manager to coordinate XA transactions.
         %a{:name => "transformation"}
         %dt transformation
         %dd
           A formal mapping from one
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} model
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} model
           to another, for the purposes of executing those mappings to perform
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} federated queries
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} federated queries
           using a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine
           In addition to providing formal, executable mapping information, transformations also provide useful
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} semantic
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} semantic
           information on how two or more models are related.
         %dd
           Teiid allows for the definition of transformations from
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           form to either relational or
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XML
           form.  Relational-to-relational transformations are defined using standard
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} SQL
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} SQL
           XML transformations are often referred to as
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} mappings
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} mappings
           Transformations are themselves defined in terms of
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} models
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} models
           using the
           = succeed "." do
             %span.product Designer
@@ -1647,45 +1647,45 @@ title: Glossary
         %dt trusted payload
         %dd
           The trusted payload is a Serializable Java object that can be passed in and used in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} authentication
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} authentication
           by the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query engine
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query engine
           and/or a custom
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} connector
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} connector
         %dd
           Teiid supports two types of trusted payloads.  The
           %em session payload
           is passed in when establishing a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} JDBC
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} JDBC
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} connection
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} connection
           It is used on every subsequent
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} command
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} command
           issued against that connection.  The
           %em command payload
           is passed in with a particular
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} command
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} command
           and is only used for that particular command.
         %a{:name => "tuple"}
         %dt
           tuple (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> relational
           )
         %dd
           In
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           algebra, a set of values resulting from a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} SQL
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} SQL
           expression.  When referring to values exposed directly to users, such as the rows in a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} table
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} table
           or in a
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} result set
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} result set
           these are usually referred to as
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} records
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} records
       %div{:align => "right"}
         %a{:href => "#Top"} Top of page
       %a#U.anchorfix{:name => "U"}
@@ -1695,14 +1695,14 @@ title: Glossary
         %dt UDDI
         %dd
           Universal Description, Discovery, and Integration.  &quot;The Universal Description, Discovery and Integration (UDDI) specifications define a registry service for
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web services
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web services
           and for other electronic and non-electronic services. A UDDI registry service is a Web service that manages information about service providers, service implementations, and service metadata.&quot;  (
           %a.external_ref{:href => "http://www.uddi.org/"}> UDDI.org
           ).
         %a{:name => "uml"}
         %dt
           UML (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> modeling
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> modeling
           )
         %dd
           Unified Modeling Language.  A standard  language for specifying, visualizing, constructing, and documenting software or information systems. UML is a standard defined and maintained by the
@@ -1710,22 +1710,22 @@ title: Glossary
             %a.external_ref{:href => "http://www.uml.org/"} OMG
         %dd
           Teiid uses UML for representing
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} models
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} models
           or physical
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data sources
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data sources
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} views
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} views
           and
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web services
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web services
         %a{:name => "union"}
         %dt union
         %dd
           A type of
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           data operation involving the merging of like-structured records.  This is accomplished in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} SQL
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} SQL
           using the
           %code union
           operation.
@@ -1733,15 +1733,15 @@ title: Glossary
         %dt update
         %dd
           The
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} SQL
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} SQL
           operation used to perform 'change' operations on a table in a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           data source.  The 'U' in
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} CRUD
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} CRUD
           Also often used as a generic term for all modification operations (insert, update, and delete, the 'CUD' in
           = succeed ")." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} CRUD
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} CRUD
       %div{:align => "right"}
         %a{:href => "#Top"} Top of page
       %a#V.anchorfix{:name => "V"}
@@ -1751,75 +1751,75 @@ title: Glossary
         %dt VDB
         %dd
           Virtual database.  A package of consistent, validated
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} models
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} models
           used for the purposes of information
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} integration
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} integration
           Application programmers issue
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} federated
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} queries
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} federated
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} queries
           against a VDB.
         %dd
           .info_box
             .box_content
               See
-              %a{:href => "/projects/federate/Documentation/Glossary/concepts/VirtualDatabases"} VDB Concepts
+              %a{:href => "#{site.base_url}/basics/glossary#VirtualDatabases"} VDB Concepts
               for more detailed information on virtual databases.
         %a{:name => "vdbarchive"}
         %dt VDB archive
         %dd
           A file that contains a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} VDB
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} VDB
           The
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} manifest
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} manifest
           defines the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} source
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} source
           and
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} view
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} view
           models that comprise the VDB.
         %a{:name => "view"}
         %dt view
         %dd
           A virtual construct for accessing information in a well-defined format. Views are defined in
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} models
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} models
         %dd
           The actual data is not stored in a view; it is manifested from data persisted in
           = succeed "," do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data sources
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data sources
           or from other views, by means of
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} transformations
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} transformations
           Views encapsulate the transformation definitions needed to
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} federate
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} federate
           data, and provide the basis for model-based
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} abstraction
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} abstraction
         %dd
           Views may be of any form.&nbsp; Teiid  supports the definition of both
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           and
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XML
           views.
         %dd
           Views are often
           = succeed "," do
             %em read-only
           but can  support performing
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} updates
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} updates
           through update procedures.
         %a{:name => "virtualprocedure"}
         %dt virtual procedure
         %dd
           A
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} procedural
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} model
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} procedural
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} model
           construct used to explicitly define data access logic.  Conceptually the same as
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} stored procedures
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} stored procedures
           in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} DBMS's
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} DBMS's
         %dd Teiid provides the capability to define and execute virtual procedures.
       %div{:align => "right"}
         %a{:href => "#Top"} Top of page
@@ -1836,52 +1836,52 @@ title: Glossary
         %dd
           Web application archive.  A zip file format used for Java Web and
           = succeed "-based" do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web services
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web services
           applications.  Applications defined in a WAR file can be deployed to
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web servers
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web servers
           and J2EE
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} application servers
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} application servers
         %a{:name => "webserver"}
         %dt Web server
         %dd
           A software system that hosts Web pages, Web applications, and
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web services
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web services
           applications.  All J2EE
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} application servers
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} application servers
           can be used as Web servers.
         %a{:name => "webservice"}
         %dt Web service
         %dd
           A
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} service
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} service
           in a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web services architecture
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web services architecture
           A Web service consists of one or more Web service
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} operations
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} operations
           A Web service is described by
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} WSDL
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} WSDL
         %a{:name => "webserviceoperation"}
         %dt Web service operation
         %dd
           A Web service operation is analogous to a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} procedure
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} procedure
           It encapsulates some processing to be performed, in this case in the context of a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web services architecture
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web services architecture
         %dd
           For
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} WS-I
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} WS-I
           compliant document-literal
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} SOAP
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} SOAP
           it takes a single
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XML
           document as input and returns a single XML document as output, both wrapped in the body of an (XML) SOAP message.&nbsp; Teiid's Web services use a
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} WS-I compliant
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} WS-I compliant
           document-literal representation.
         %dd For RPC SOAP, it takes a single XML document containing the input parameters as input and returns one or more XML documents as output, both wrapped in the body of an (XML) SOAP message.
         %dd
@@ -1889,7 +1889,7 @@ title: Glossary
           %em Interfaces
           within a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web service
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web service
         %a{:name => "webservices"}
         %dt Web services
         %dd
@@ -1900,9 +1900,9 @@ title: Glossary
         %dt Web services architecture
         %dd
           A software
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} architecture
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} architecture
           based on
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} services
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} services
           executable using Web protocols, defined by the
           = succeed "." do
             %a.external_ref{:href => "http://www.w3.org/TR/ws-arch/"} W3C Web Services architecture
@@ -1910,14 +1910,14 @@ title: Glossary
         %dt WS-I
         %dd
           Web service interoperability.  The WS-I is a web services profile maintained by the Oasis organization to advance the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} interoperability
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} interoperability
           of web services.  The profile is more specific about certain aspects of the relevant web services standards (WSDL, SOAP) in order to allow web service components to interoperate across platforms and languages.
         %a{:name => "wsdl"}
         %dt WSDL
         %dd
           Web Service Definition Language.  A specification maintained by the
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} W3C
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} W3C
           See
           %a.external_ref{:href => "http://www.w3.org/TR/wsdl"} WSDL 1.1
           and
@@ -1933,9 +1933,9 @@ title: Glossary
         %dd
           A specification for distributed
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} transactions
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} transactions
           A
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} data source
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} data source
           that conforms to the XA specification is said to be &quot;XA-compliant&quot;.
         %dd Teiid can coordinate distributed transactions across multiple XA-compliant data sources.
         %a{:name => "xml"}
@@ -1948,12 +1948,12 @@ title: Glossary
         %dt XML Service
         %dd
           A
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} service
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} service
           that returns information in
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XML
           format.  An XML Service is a more general form of a
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web service
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web service
         %dd
           In Teiid, an XML Service can take any number of scalar input parameters.  If there is exactly one input of type
           %code XMLLiteral
@@ -1969,34 +1969,34 @@ title: Glossary
         %a{:name => "xpath"}
         %dt
           XPath (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> XML
           )
         %dd
           XML Path Language.  A language for addressing parts of an XML document which is designed to be embedded in other languages such as
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XSLT
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XSLT
           or
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XQuery
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XQuery
         %dd
           Teiid uses XPath as part of its procedure language used for defining
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Web service operations
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Web service operations
         %a{:name => "xquery"}
         %dt
           XQuery (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> XML
           )
         %dd
           A
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} query
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} query
           language used for retrieving information from and manipulating
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XML
           data sources (represented by the
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} XML Service
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} XML Service
           model class).  XQuery is to XML sources as
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} SQL
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} SQL
           is to
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} relational
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} relational
           sources.
         %dd
           Teiid
@@ -2004,13 +2004,13 @@ title: Glossary
         %a{:name => "xslt"}
         %dt
           XSLT (
-          %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"}> XML
+          %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"}> XML
           )
         %dd XSL Transformations.  A language used for transforming XML documents into other XML documents.
         %dd
           Teiid allows the specification of XSLT when submitting queries against XML
           = succeed "." do
-            %a.glossary_ref{:href => "/projects/teiid/Documentation/Glossary.html"} Views
+            %a.glossary_ref{:href => "#{site.base_url}/basics/glossary"} Views
           The XSLT is applied to the XML document(s) that result from the query, and the resulting document(s) are returned to the client application.
       %div{:align => "right"}
         %a{:href => "#Top"} Top of page
@@ -2031,4 +2031,4 @@ title: Glossary
         %dd
           %br/
       %div{:align => "right"}
-        %a{:href => "#{site.base_url}/basics/glossary.html"} Top of page
+        %a{:href => "#{site.base_url}/basics/glossary"} Top of page
