@@ -16,20 +16,53 @@ title: Documentation
     The documentation project can be found at 
     %a{href: "https://teiid.gitbooks.io"} gitbooks/github. 
   %p The 7.x series of releases have the PDF documentation included in the distribution downloads.
-  %p The 8.x series of releases no longer have the PDF documentation included in the distribution downloads.  Please log a JIRA if still desirable to have a PDF distributed.
+  %p The 8.x series of releases no longer have the PDF documentation included in the distribution downloads.
+  %p The 9.x series of releases use gitbook, which can be used to download PDF, EPUB, and MOBI documentation.
 .clear
   %br/
-%h2 WIKI
+%h2 Community Resources
 %p
-  Many of "How To" documents are posted on
-  %a{href: "https://www.jboss.org/community/docs/DOC-12956"} Teiid WIKI
-  page. Please check out "
-  %strong> Teiid Documents
-  " section.
+  Many "How To" and other documents are posted as WIKI pages and articles on the
+  %a{href: "https://www.jboss.org/community/docs/DOC-12956"} Teiid Community
+  and on the
+  %a{href: "http://teiid.blogspot.com/"} Teiid Blog.
 %h3 9.x Release
 %p
-  This is a work in progress.  Please see the 
-  %a{href: "https://teiid.gitbooks.io/documents/content/"} gitbooks.
+  Please also see the 
+  %a{href: "https://teiid.gitbooks.io/documents/content/"} gitbooks.  
+  To download an entire book in any supported format, please use
+  %a{href: "https://www.gitbook.com/book/teiid/documents/activity"} the branch activity page
+  and select the desired branch and use the dropdown on the right to select the appropriate content.
+%form
+  %table.table.table-bordered.table-striped{align: "left", border: "0", cellpadding: "4", cellspacing: "1"}
+    %thead
+      %tr.header
+        %th Document
+        %th HTML
+        %th PDF
+    %tbody
+      %tr.oddRow
+        %td{width: "50%"} Full book set - Reference, Developer's, Client Developer's, Admin, Caching, and Security Guide
+        %td{style: "text-align: left;", width: "15%"}
+          %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
+            %option{value: ""} Version
+            %option{value: "https://teiid.gitbooks.io/documents/content/v/9.0.x/"} 9.0
+        %td{style: "text-align: left;", width: "15%"}
+          %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
+            %option{value: ""} Version
+            %option{value: "https://www.gitbook.com/download/pdf/book/teiid/documents/v/9.0.x"} 9.0
+      %tr.evenRow
+        %td Quick Start
+        %td{style: "text-align: left;"}
+          %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
+            %option{value: ""} Version
+            %option{value: "https://docs.jboss.org/author/display/teiidexamples"} 9.0+
+      %tr.evenRow
+        %td API Docs
+        %td{style: "text-align: left;"}
+          %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
+            %option{value: ""} Version
+            %option{value: "http://docs.jboss.org/teiid/9.0.0.Final/apidocs"} 9.0           
 %h3 8.x Release
 %form
   %table.table.table-bordered.table-striped{align: "left", border: "0", cellpadding: "4", cellspacing: "1"}
