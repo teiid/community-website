@@ -1,0 +1,114 @@
+---
+layout: rightcol
+rightcol_partial: rightcol-downloads.html.haml
+title: 8.12 Downloads
+---
+
+%h2 Downloads
+%table.table.table-bordered.table-striped{align: "left", border: "0", cellpadding: "0", cellspacing: "1", width: "100%"}
+  %thead
+    %tr.header
+      %th Download
+      %th Last Release
+  %tbody
+    %tr.evenRow
+      %td Teiid Runtime
+      %td
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/8.12.4/teiid-8.12.4-jboss-dist.zip", onclick:"var that=this;_gaq.push(['_trackEvent','Download','Runtime',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 8.12.4 *
+        %br/
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/8.12.4/teiid-8.12.4-server.zip", onclick:"var that=this;_gaq.push(['_trackEvent','Download','Runtime',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 8.12.4 With EAP
+    %tr.oddRow
+      %td Teiid Embedded
+      %td
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/8.12.4/teiid-8.12.4-embedded-dist.zip", onclick:"var that=this;_gaq.push(['_trackEvent','Download','Embedded',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 8.12.4 **
+    %tr.evenRow
+      %td Teiid AdminShell
+      %td
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/8.12.4/teiid-8.12.4-adminshell-dist.zip", onclick:"var that=this;_gaq.push(['_trackEvent','Download','AdminShell',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 8.12.4
+    %tr.oddRow
+      %td JDBC Driver
+      %td
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/8.12.4/teiid-8.12.4-jdbc.jar", onclick:"var that=this;_gaq.push(['_trackEvent','Download','JDBC Driver',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 8.12.4
+    %tr.evenRow
+      %td 1.5 Client Driver (will not be provided after 8.x)
+      %td
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/8.12.4/teiid-8.12.4-jdbc-jdk15.jar", onclick:"var that=this;_gaq.push(['_trackEvent','Download','JDBC Driver',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 8.12.4
+    %tr.oddRow
+      %td 1.4 Client Driver (will not be provided after 8.x)
+      %td
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/8.12.4/teiid-8.12.4-jdbc-jdk14.jar", onclick:"var that=this;_gaq.push(['_trackEvent','Download','JDBC Driver',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 8.12.4
+    %tr.evenRow
+      %td Teiid Source
+      %td
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/8.12.4/teiid-8.12.4-src.zip", onclick:"var that=this;_gaq.push(['_trackEvent','Download','SourceCode',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 8.12.4
+    %tr.oddRow
+      %td Release Notes / Change Log
+      %td
+        %a{href: "http://docs.jboss.org/teiid/8.12.0.Final/teiid-releasenotes.html"} 8.12.0
+    %tr.evenRow
+      %td Teiid Web Console
+      %td
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/web-console/teiid-console-dist/2.5.1/teiid-console-dist-2.5.1-jboss-as7.zip"} 2.5.1
+    %tr.oddRow
+      %td Teiid RHQ Plugin
+      %td
+        %a.td-download{href: "http://downloads.jboss.org/teiid/rhq/1.0.0-Final/teiid-rhq-plugin-1.0.0-Final.jar"} 1.0 Final***
+%p  
+.alert.alert-block
+  %b * IMPORTANT NOTE:
+  Teiid is targeted to specific platforms.  See more below.
+  %br/
+  %b ** IMPORTANT NOTE:
+  The embedded kit is being removed.  You should use maven to directly control what features you need.  See 
+  %a{href: "https://github.com/teiid/teiid-embedded-examples"} The Embedded Examples
+  %br/
+  %b ***
+  See the
+  %a{href: "https://community.jboss.org/wiki/NewTeiidRHQPluginForTeiid8x"} RHQ plugin installation instructions.
+  
+.clear
+  %br/
+%h2 Installation
+%p Teiid Requires:
+.proj_basics
+  %ul.icons-ul
+    %li
+      %i.icon-li.icon-play-sign
+      %a{href: "http://www.java.com/en/download/manual.jsp"} JRE 
+      %ul.icons-ul
+        %li 
+          %i.icon-li.icon-play-sign
+          Otherwise Java 1.6 (at least 1.6.0.18). Java 1.7 or later is preferred. You may experience issues with Java 1.8 and later with EAP releases prior to 6.4.
+    %li
+      %a{href: "http://www.jboss.org/products/eap/download/"} EAP
+      %ul.icons-ul
+        %li
+          %i.icon-li.icon-play-sign
+          EAP 6.4 Alpha for Teiid 8.11 Beta2+
+    %li
+      %i.icon-li.icon-play-sign
+      %a{href: "http://teiiddesigner.jboss.org/designer_summary/downloads"} Teiid Designer
+      for creation of VDBs in a modeling environment.
+%p
+  For complete installation instructions please refer to "Administrator's Guide" in
+  = succeed "." do
+    %a{href: "http://teiid.org/docs"} Teiid Documents section
+%p For Quick "standalone" mode installation of the latest Teiid
+Either start by unzip the kit above that includes EAP or:
+%ol
+  %li Install the appropriate AS / EAP version (see above).   
+  %li UnZip Teiid archive over the installed JBoss AS
+Then start the server using "standalone.sh -c standalone-teiid.xml" command.
+%p Additionally you'll need to supply any third-party jars needed to connect to your enterprise sources like JDBC Drivers.
+%p
+  Teiid JDBC Driver 
+  %code> teiid-&lt;version&gt;-jdbc.jar
+  \ can be downloaded from above links for accessing a VDB through JDBC.
+%p
+  Follow the
+  %a{href: "https://docs.jboss.org/author/display/teiidexamples/Home"} quick start
+  and the
+  %a{href: "https://www.jboss.org/community/wiki/TheTeiidDesignerProject"} Teiid Designer documentation
+  to understand how to create a VDB.  Use and contribute to the
+  %span{style: "text-decoration: underline;"} Teiid wiki
+  for additional examples and configuration options for Teiid.
