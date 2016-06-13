@@ -28,8 +28,8 @@ title: Documentation
   %a{href: "http://teiid.blogspot.com/"} Teiid Blog.
 %h3 9.x Release
 %p
-  Please also see the 
-  %a{href: "https://teiid.gitbooks.io/documents/content/"} gitbooks.  
+  Please also see our 
+  %a{href: "https://teiid.gitbooks.io/"} GitBook site.  
   To download an entire book in any supported format, please use
   %a{href: "https://www.gitbook.com/book/teiid/documents/activity"} the branch activity page
   and select the desired branch and use the dropdown on the right to select the appropriate content.
@@ -52,17 +52,29 @@ title: Documentation
             %option{value: ""} Version
             %option{value: "https://www.gitbook.com/download/pdf/book/teiid/documents/v/9.0.x"} 9.0
       %tr.evenRow
+        %td{width: "50%"} Teiid Embedded Examples
+        %td{style: "text-align: left;", width: "15%"}
+          %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
+            %option{value: ""} Version
+            %option{value: "https://teiid.gitbooks.io/teiid-embedded-examples/content"} 9.0
+        %td{style: "text-align: left;", width: "15%"}
+          %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
+            %option{value: ""} Version
+            %option{value: "https://www.gitbook.com/download/pdf/book/teiid/teiid-embedded-examples"} 9.0
+      %tr.oddRow
         %td Quick Start
         %td{style: "text-align: left;"}
           %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
             %option{value: ""} Version
             %option{value: "https://docs.jboss.org/author/display/teiidexamples"} 9.0+
+        %td    
       %tr.evenRow
         %td API Docs
         %td{style: "text-align: left;"}
           %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
             %option{value: ""} Version
-            %option{value: "http://docs.jboss.org/teiid/9.0.0.Final/apidocs"} 9.0           
+            %option{value: "http://docs.jboss.org/teiid/9.0.0.Final/apidocs"} 9.0
+        %td           
 %h3 8.x Release
 %form
   %table.table.table-bordered.table-striped{align: "left", border: "0", cellpadding: "4", cellspacing: "1"}
