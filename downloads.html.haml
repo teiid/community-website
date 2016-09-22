@@ -94,6 +94,27 @@ title: Downloads
   Teiid Designer currently works with only 
   %a{href: "#{site.base_url}/downloads_812"} Teiid 8.12 
   and earlier.
+
+.clear
+  %br/
+%h2 Maven
+
+%h4 JDBC Driver
+.code &= "<dependency>
+  <groupId>org.jboss.teiid</groupId>
+  <artifactId>teiid</artifactId>
+  <classifier>jdbc</classifier>
+  <version>X.X.X</version>
+</dependency>"
+          
+%h4 Server Distribution
+.code &= "<dependency>
+  <groupId>org.jboss.teiid</groupId>
+  <artifactId>teiid</artifactId>
+  <version>X.X.X</version>
+  <classifier>wildfly-server</classifier>
+  <type>zip</type>
+</dependency>" 
           
 .clear
   %br/
