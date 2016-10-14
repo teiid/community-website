@@ -17,15 +17,26 @@ title: Roadmap
   Future releases:
 %ul
   %li
-    %a{href: "https://issues.jboss.org/projects/TEIID/versions/12329070"} Teiid 9.1
-    should include WildFly 10 support, a ddl option to replace the vdb.xml, and a new testing framework.
+    %a{href: "https://issues.jboss.org/projects/TEIID/versions/12330722"} Teiid 9.2 
+    should include WildFly Swarm support, a ddl option to replace the vdb.xml, and more scalability/analytical support.
   %li
-    %a{href: "https://issues.jboss.org/projects/TEIID/versions/12313884"} Teiid 9.x 
-    should include WildFly Swarm support, OData 4 expand support and more scalability/analytical support.
-  %li
-    Teiid 10 targeted to Wildfly 11+ and additional Spark integration
+    Teiid 10 targeted to Wildfly 11+, Debezium integration, and additional Spark integration
 %p Past Releases:
 %ul
+  %li
+    9.1
+    %ul
+      <li><a href="https://issues.jboss.org/browse/TEIID-2715">TEIID-2715</a> <b>OData Metadata</b> support for providing the metadata extension properties for OData.</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-4243">TEIID-4243</a> <b>BatchUpdateException</b> support in JDBC to indicate what part of batch succeeds when a failure occurs.</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-4191">TEIID-4191</a> <b>NO QUOTE</b> option for TEXTAGG.</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-4200">TEIID-4200</a> Moved to WildFly 10 as host environment</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-4332">TEIID-4332</a> <b>Improved NDV</b> calculations for costing.</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-4284">TEIID-4284</a> <b>Salesforce Bulk API</b> for SELECT queries.</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-4378">TEIID-4378</a> <a href="https://issues.jboss.org/browse/TEIID-4376">TEIID-4376</a> <b>Clob enhancements</b> to support concat and use in EXECUTE IMMEDIATE.</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-4100">TEIID-4100</a> <b>OData expand</b> support for siblings and nested expands.</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-4100">TEIID-4393</a> <b>Additional Geospatial Functions</b> to more fully support the SQL-MM specification.</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-4421">TEIID-4421</a> <b>Embedded Translator Refinements</b> to allow for functioning that is similar to the server.</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-3630">TEIID-3630</a> <b>Merge/Upsert pushdown</b> is now supported.</li>
   %li
     9.0
     %ul
