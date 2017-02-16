@@ -1,0 +1,104 @@
+---
+layout: rightcol
+rightcol_partial: rightcol-downloads.html.haml
+title: 9.0 Downloads
+---
+
+%h2 Downloads
+%table.table.table-bordered.table-striped{align: "left", border: "0", cellpadding: "0", cellspacing: "1", width: "100%"}
+  %thead
+    %tr.header
+      %th Download
+      %th Last Release
+  %tbody
+    %tr.evenRow
+      %td Teiid Runtime
+      %td
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/9.0.5/teiid-9.0.5-wildfly-dist.zip", onclick:"var that=this;_gaq.push(['_trackEvent','Download','Runtime',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 9.0.5 *
+        %br/
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/9.0.5/teiid-9.0.5-wildfly-server.zip", onclick:"var that=this;_gaq.push(['_trackEvent','Download','Runtime',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 9.0.5 With WildFly/Console
+    %tr.oddRow
+      %td Teiid AdminShell
+      %td
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/9.0.5/teiid-9.0.5-adminshell-dist.zip", onclick:"var that=this;_gaq.push(['_trackEvent','Download','AdminShell',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 9.0.5
+    %tr.evenRow
+      %td JDBC Driver
+      %td
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/9.0.5/teiid-9.0.5-jdbc.jar", onclick:"var that=this;_gaq.push(['_trackEvent','Download','JDBC Driver',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 9.0.5
+    %tr.oddRow
+      %td 1.5 Client Driver (will not be provided after 8.x)
+      %td
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/9.0.5/teiid-9.0.5-jdbc-jdk15.jar", onclick:"var that=this;_gaq.push(['_trackEvent','Download','JDBC Driver',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 9.0.5
+    %tr.evenRow
+      %td 1.4 Client Driver (will not be provided after 8.x)
+      %td
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/9.0.5/teiid-9.0.5-jdbc-jdk14.jar", onclick:"var that=this;_gaq.push(['_trackEvent','Download','JDBC Driver',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 9.0.5
+    %tr.oddRow
+      %td Teiid Source
+      %td
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/teiid/9.0.5/teiid-9.0.5-src.zip", onclick:"var that=this;_gaq.push(['_trackEvent','Download','SourceCode',this.href]);setTimeout(function(){location.href=that.href;},200);return false;"} 9.0.5
+    %tr.evenRow
+      %td Release Notes / Change Log
+      %td
+        %a{href: "http://docs.jboss.org/teiid/9.0.0.Final/teiid-releasenotes.html"} 9.0.0
+    %tr.oddRow
+      %td Teiid Web Console
+      %td
+        %a.td-download{href: "https://repository.jboss.org/nexus/service/local/repositories/releases/content/org/jboss/teiid/hal/dist/2.7/dist-2.7-overlay.zip"} 2.7
+
+%p  
+.alert.alert-block
+  %b * IMPORTANT NOTE:
+  Teiid is targeted to specific platforms.  See more below.
+  %br/
+  %b ** IMPORTANT NOTE:
+  The embedded kit is being removed.  You should use maven to directly control what features you need.  See 
+  %a{href: "https://github.com/teiid/teiid-embedded-examples"} The Embedded Examples
+  %br/
+  
+.clear
+  %br/
+%h2 Installation
+%p Teiid Requires:
+.proj_basics
+  %ul.icons-ul
+    %li
+      %i.icon-li.icon-play-sign
+      %a{href: "http://www.java.com/en/download/manual.jsp"} JRE 
+      %ul.icons-ul
+        %li 
+          %i.icon-li.icon-play-sign
+          Java 1.7 or later
+    %li
+      %a{href: "http://www.jboss.org/products/eap/download/"} EAP
+      %ul.icons-ul
+        %li
+          %i.icon-li.icon-play-sign
+          WildFly 9.0.2 for Teiid 8.13.x - 9.0.x
+    %li
+      %i.icon-li.icon-play-sign
+      %a{href: "http://teiiddesigner.jboss.org/designer_summary/downloads"} Teiid Designer
+      for creation of VDBs in a modeling environment.
+%p
+  For complete installation instructions please refer to "Administrator's Guide" in
+  = succeed "." do
+    %a{href: "http://teiid.org/docs"} Teiid Documents section
+%p For Quick "standalone" mode installation of the latest Teiid
+Either start by unzip the kit above that includes EAP or:
+%ol
+  %li Install the appropriate AS / EAP version (see above).   
+  %li UnZip Teiid archive over the installed JBoss AS
+Then start the server using "standalone.sh -c standalone-teiid.xml" command.
+%p Additionally you'll need to supply any third-party jars needed to connect to your enterprise sources like JDBC Drivers.
+%p
+  Teiid JDBC Driver 
+  %code> teiid-&lt;version&gt;-jdbc.jar
+  \ can be downloaded from above links for accessing a VDB through JDBC.
+%p
+  Follow the
+  %a{href: "https://docs.jboss.org/author/display/teiidexamples/Home"} quick start
+  and the
+  %a{href: "https://www.jboss.org/community/wiki/TheTeiidDesignerProject"} Teiid Designer documentation
+  to understand how to create a VDB.  Use and contribute to the
+  %span{style: "text-decoration: underline;"} Teiid wiki
+  for additional examples and configuration options for Teiid.
