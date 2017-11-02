@@ -17,7 +17,11 @@ title: Documentation
     %a{href: "https://teiid.gitbooks.io"} gitbooks/github. 
   %p 
     The 
-    %a{:href => "#9x"} 9.x 
+    %a{:href => "#10x"} 10.x
+    series of releases use gitbook, which can be used to download PDF, EPUB, and MOBI documentation.
+  %p 
+    The 
+    %a{:href => "#9x"} 9.x
     series of releases use gitbook, which can be used to download PDF, EPUB, and MOBI documentation.
   %p 
     The 
@@ -35,14 +39,58 @@ title: Documentation
   %a{href: "https://www.jboss.org/community/docs/DOC-12956"} Teiid Community
   and on the
   %a{href: "http://teiid.blogspot.com/"} Teiid Blog.
-#9x
-%h3 9.x Release
 %p
   Please also see our 
   %a{href: "https://teiid.gitbooks.io/"} GitBook site.  
   To download an entire book in any supported format, please use
   %a{href: "https://www.gitbook.com/book/teiid/documents/activity"} the branch activity page
   and select the desired branch and use the dropdown on the right to select the appropriate content.
+#10x
+%h3 10.x Release
+%form
+  %table.table.table-bordered.table-striped{align: "left", border: "0", cellpadding: "4", cellspacing: "1"}
+    %thead
+      %tr.header
+        %th Document
+        %th HTML
+        %th PDF
+    %tbody
+      %tr.oddRow
+        %td{width: "50%"} Full book set - Reference, Developer's, Client Developer's, Admin, Caching, and Security Guide
+        %td{style: "text-align: left;", width: "15%"}
+          %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
+            %option{value: ""} Version
+            %option{value: "https://teiid.gitbooks.io/documents/content/v/10.0.x/"} 10.0
+        %td{style: "text-align: left;", width: "15%"}
+          %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
+            %option{value: ""} Version
+            %option{value: "https://www.gitbook.com/download/pdf/book/teiid/documents/v/10.0.x"} 10.0
+      %tr.evenRow
+        %td{width: "50%"} Teiid Embedded Examples
+        %td{style: "text-align: left;", width: "15%"}
+          %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
+            %option{value: ""} Version
+            %option{value: "https://github.com/teiid/teiid-embedded-examples/blob/master/README.md"} 10.0+
+        %td{style: "text-align: left;", width: "15%"}
+      %tr.oddRow
+        %td Quick Start
+        %td{style: "text-align: left;"}
+          %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
+            %option{value: ""} Version
+            %option{value: "https://teiid.gitbooks.io/teiid-quickstarts/content/"} 10.0+
+        %td{style: "text-align: left;", width: "15%"}
+          %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
+            %option{value: ""} Version
+            %option{value: "https://www.gitbook.com/download/pdf/book/teiid/teiid-quickstarts"} 10.0+   
+      %tr.evenRow
+        %td API Docs
+        %td{style: "text-align: left;"}
+          %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
+            %option{value: ""} Version
+            %option{value: "http://docs.jboss.org/teiid/10.0.0.Final/apidocs"} 10.0
+        %td           
+#9x
+%h3 9.x Release
 %form
   %table.table.table-bordered.table-striped{align: "left", border: "0", cellpadding: "4", cellspacing: "1"}
     %thead
@@ -72,20 +120,17 @@ title: Documentation
         %td{style: "text-align: left;", width: "15%"}
           %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
             %option{value: ""} Version
-            %option{value: "https://github.com/teiid/teiid-embedded-examples/blob/master/README.md"} 10.0+
             %option{value: "https://github.com/teiid/teiid-embedded-examples/blob/teiid-9.x/README.md"} 9.x
-        %td{style: "text-align: left;", width: "15%"}
+        %td{style: "text-align: left;", width: "15%"}      
       %tr.oddRow
         %td Quick Start
         %td{style: "text-align: left;"}
           %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
             %option{value: ""} Version
-            %option{value: "https://teiid.gitbooks.io/teiid-quickstarts/content/"} 10.0+
             %option{value: "https://teiid.gitbooks.io/teiid-quickstarts/content/v/teiid-9.x/"} 9.x
         %td{style: "text-align: left;", width: "15%"}
           %select{onchange: "var idx=this.selectedIndex;this.selectedIndex=0;window.location.href=this.options[idx].value", style: "width: 10em"}
             %option{value: ""} Version
-            %option{value: "https://www.gitbook.com/download/pdf/book/teiid/teiid-quickstarts"} 10.0+   
             %option{value: "https://www.gitbook.com/download/pdf/book/teiid/teiid-quickstarts/v/teiid-9.x"} 9.x
       %tr.evenRow
         %td API Docs
@@ -482,80 +527,3 @@ title: Documentation
             %option{value: "http://docs.jboss.org/teiid/7.0.0/apidocs"} 7.0
         %td  
         %td  
-%p  
-%h3 6.x Release
-%table.table.table-bordered.table-striped{align: "left", border: "0", cellpadding: "4", cellspacing: "1", width: "100%"}
-  %caption
-    %br{type: "_moz"}/
-  %thead
-    %tr.header
-      %th Document
-      %th HTML
-      %th PDF
-  %tbody
-    %tr.oddRow
-      %td Reference Guide
-      %td
-        %a{href: "http://docs.jboss.org/teiid/6.2/reference/en-US/html"}> 6.2
-        ,
-        = succeed "," do
-          %a{href: "http://docs.jboss.org/teiid/6.1/reference/en-US/html"} 6.1
-        %a{href: "http://docs.jboss.org/teiid/6.0/reference/en-US/html"} 6.0
-      %td
-        %a{href: "http://docs.jboss.org/teiid/6.2/reference/en-US/pdf/teiid_reference.pdf"}> 6.2
-        ,
-        = succeed "," do
-          %a{href: "http://docs.jboss.org/teiid/6.1/reference/en-US/pdf/teiid_reference.pdf"} 6.1
-        %a{href: "http://docs.jboss.org/teiid/6.0/reference/en-US/pdf/teiid_reference.pdf"} 6.0
-    %tr.evenRow
-      %td Connector Developer's Guide
-      %td
-        %a{href: "http://docs.jboss.org/teiid/6.2/connector-developer-guide/en-US/html"}> 6.2
-        ,
-        = succeed "," do
-          %a{href: "http://docs.jboss.org/teiid/6.1/connector-developer-guide/en-US/html"} 6.1*
-        %a{href: "http://docs.jboss.org/teiid/6.0/connector-developer-guide/en-US/html"} 6.0*
-      %td
-        %a{href: "http://docs.jboss.org/teiid/6.2/connector-developer-guide/en-US/pdf/connector_developer_guide.pdf"}> 6.2
-        ,
-        = succeed "," do
-          %a{href: "http://docs.jboss.org/teiid/6.1/connector-developer-guide/en-US/pdf/connector_developer_guide.pdf"} 6.1*
-        %a{href: "http://docs.jboss.org/teiid/6.0/connector-developer-guide/en-US/pdf/connector_developer_guide.pdf"} 6.0*
-    %tr.oddRow
-      %td Server Extensions Guide
-      %td
-        %a{href: "http://docs.jboss.org/teiid/6.2/server-extensions-guide/en-US/html"}> 6.2*
-        ,
-        = succeed "," do
-          %a{href: "http://docs.jboss.org/teiid/6.1/server-extensions-guide/en-US/html"} 6.1*
-        %a{href: "http://docs.jboss.org/teiid/6.0/server-extensions-guide/en-US/html"} 6.0*
-      %td
-        %a{href: "http://docs.jboss.org/teiid/6.2/server-extensions-guide/en-US/pdf/membership_domain_guide.pdf"}> 6.2*
-        ,
-        = succeed "," do
-          %a{href: "http://docs.jboss.org/teiid/6.0/server-extensions-guide/en-US/pdf/membership_domain_guide.pdf"} 6.1*
-        %a{href: "http://docs.jboss.org/teiid/6.0/server-extensions-guide/en-US/pdf/membership_domain_guide.pdf"} 6.0*
-    %tr.evenRow
-      %td Admin Shell Guide
-      %td
-        %a{href: "http://docs.jboss.org/teiid/6.2/admin-guide/en-US/html"}> 6.2
-        ,
-        = succeed "," do
-          %a{href: "http://docs.jboss.org/teiid/6.1/admin-guide/en-US/html"} 6.1
-        %a{href: "http://docs.jboss.org/teiid/6.0/admin-guide/en-US/html"} 6.0
-      %td
-        %a{href: "http://docs.jboss.org/teiid/6.2/admin-guide/en-US/pdf/teiid_admin_guide.pdf"}> 6.2
-        ,
-        = succeed "," do
-          %a{href: "http://docs.jboss.org/teiid/6.1/admin-guide/en-US/pdf/teiid_admin_guide.pdf"} 6.1
-        %a{href: "http://docs.jboss.org/teiid/6.0/admin-guide/en-US/pdf/teiid_admin_guide.pdf"} 6.0
-    %tr.oddRow
-      %td API Docs
-      %td
-        %a{href: "http://docs.jboss.org/teiid/6.2/apidocs"}> 6.2
-        ,
-        = succeed "," do
-          %a{href: "http://docs.jboss.org/teiid/6.1/apidocs"} 6.1
-        %a{href: "http://docs.jboss.org/teiid/6.0/apidocs"} 6.0
-      %td  
-%p  *not up-to-date, see API Docs and the Teiid source for more on custom development.

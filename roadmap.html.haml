@@ -17,13 +17,22 @@ title: Roadmap
   Future releases:
 %ul
   %li
-    %a{href: "https://issues.jboss.org/projects/TEIID/versions/12332970"} Teiid 10.0
-    should include full SpringBoot support, Debezium integration, and more scalability/analytical support.
+    %a{href: "https://issues.jboss.org/projects/TEIID/versions/12336003"} Teiid 10.1
+    should include full Spring Boot support and more Kubernetes/OpenShift support.
   %li
-    Teiid 10.x targeted to Wildfly 11+, interactive ddl, and additional Spark integration
+    Teiid 10.x targeted to Wildfly 11+, Debezium integration, interactive ddl, and additional Spark integration
 %p Past Releases:
 %ul
   %li
+    10.0
+    %ul
+      <li><a href="https://issues.jboss.org/browse/TEIID-4981">TEIID-4981</a> Amazon S3 translator support, now read the objects directly from Amazon S3 with security</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-5026">TEIID-5026</a> The behavior of the FROM_UNIXTIME function was corrected and the related datetime functions UNIX_TIMESTAMP, TO_MILLIS, and FROM_MILLIS were added.</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-1131">TEIID-1131</a> Added support for importing sequence information.</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-5073">TEIID-5073</a> Added a salesforce-41 translator/resource adapter pair, which defaults to accessing the v40 salesforce API.</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-4208">TEIID-4208</a> Added parallelism to plan execution involving large sorts.</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-5002">TEIID-5002</a> Upgraded to WildFly 11</li>
+      <li><a href="https://issues.jboss.org/browse/TEIID-4711">TEIID-4711</a> Generalized IS DISTINCT support.</li>
     9.3
     %ul
       <li><a href="https://issues.jboss.org/browse/TEIID-3624">TEIID-3624</a> <b>CREATE DOMAIN</b> support for user defined simple types.</li>

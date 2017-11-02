@@ -20,18 +20,18 @@ title: Teiid Homepage
       %a.accordion-toggle.in{"data-parent" => "#accordionAnnounce", "data-toggle" => "collapse", href: "#collapseTwo"}
         %h4
           .icon.icon-asterisk
-          Announcement: 9.3 Final Released on June 6th, 2017
+          Announcement: 10.0.0 Final Released on November 2nd, 2017
     #collapseTwo.accordion-body.collapse
       .accordion-inner
-        %p Teiid 9.3 for Wildfly 10.0.0 is now <a href="http://teiid.jboss.org/downloads/">available</a>. The main features are:
+        %p Teiid 10.0.0 for Wildfly 11.0.0 is now <a href="http://teiid.jboss.org/downloads/">available</a>. The main features are:
         %ul
-          <li><a href="https://issues.jboss.org/browse/TEIID-3624">TEIID-3624</a> <b>CREATE DOMAIN</b> support for user defined simple types.</li>
-          <li><a href="https://issues.jboss.org/browse/TEIID-4724">TEIID-4724</a> <b>DDL .vdb</b> deployment.</li>
-          <li><a href="https://issues.jboss.org/browse/TEIID-4557">TEIID-4557</a> <a href="https://issues.jboss.org/browse/TEIID-2465">TEIID-2465</a> <b>Memory restrictions</b> at the operation and session level.</li>
-          <li><a href="https://issues.jboss.org/browse/TEIID-4578">TEIID-4578</a> <b>SQLAlchemy</b> and Superset support through our pg/odbc access.</li>
-          <li><a href="https://issues.jboss.org/browse/TEIID-4646">TEIID-4646</a> <b>LEAD/LAG/FIRST_VALUE/LAST_VALUE</b> analytic/value function support.</li>
-          <li><a href="https://issues.jboss.org/browse/TEIID-2820">TEIID-2820</a> <b>Couchbase support</b> via a new translator and resource adapter.</li>
-          <li><a href="https://issues.jboss.org/browse/TEIID-4733">TEIID-4733</a> <b>Infinispan Support</b> via a new translator and resource adapter.</li>
+          <li><a href="https://issues.jboss.org/browse/TEIID-4981">TEIID-4981</a> Amazon S3 translator support, now read the objects directly from Amazon S3 with security</li>
+          <li><a href="https://issues.jboss.org/browse/TEIID-5026">TEIID-5026</a> The behavior of the FROM_UNIXTIME function was corrected and the related datetime functions UNIX_TIMESTAMP, TO_MILLIS, and FROM_MILLIS were added.</li>
+          <li><a href="https://issues.jboss.org/browse/TEIID-1131">TEIID-1131</a> Added support for importing sequence information.</li>
+          <li><a href="https://issues.jboss.org/browse/TEIID-5073">TEIID-5073</a> Added a salesforce-41 translator/resource adapter pair, which defaults to accessing the v40 salesforce API.</li>
+          <li><a href="https://issues.jboss.org/browse/TEIID-4208">TEIID-4208</a> Added parallelism to plan execution involving large sorts.</li>
+          <li><a href="https://issues.jboss.org/browse/TEIID-5002">TEIID-5002</a> Upgraded to WildFly 11</li>
+          <li><a href="https://issues.jboss.org/browse/TEIID-4711">TEIID-4711</a> Generalized IS DISTINCT support.</li>
 
 %table
   %tbody
