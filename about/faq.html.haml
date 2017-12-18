@@ -15,7 +15,7 @@ title: FAQ
   %strong be used?
   %p Teiid's JDBC driver can be used in any Java application. It is especially useful if your application needs an integrated view of multiple sources. Teiid provides a single, uniform API – using standard JDBC and SQL – through which your application can access an integrated view of data from any sources.
   %strong Where can Teiid be used?
-  %p Teiid can be used within stand-alone Java applications, applications hosted in J2EE application servers such as WebLogic and JBoss, or in Eclipse-based applications. In fact, Teiid is embedded in the JBoss Enterprise Data Services Platform. It is the heart of the Enterprise Data Services Server, and it serves as the query engine for testing VDBs in Teiid Designer.
+  %p Teiid can be used within stand-alone Java applications, applications hosted in J2EE application servers such as WebLogic and JBoss, or in Eclipse-based applications. In fact, Teiid is the key component of the Red Hat Data Virtualization Platform.
   %strong Why would I want to use Teiid?
   %p So that you can concentrate on what matters the most to your project – writing the business and domain logic for your application – rather than wiring together data sources. We’ve encapsulated all the query processing logic you need for optimally accessing and joining data that resides in different formats in different data sources. Using Teiid means that you won’t have to reinvent the wheel, and maintain that code forever. That’s just the tip of the iceberg; see 10 reasons to use Teiid for more information!
   %strong Who should use Teiid?
@@ -29,13 +29,13 @@ title: FAQ
   %p See the Teiid features page for a summary of features.
   %strong What sort of documentation is available for Teiid?
   %p We provide everything you need to get started with and subsequently master Teiid. See our documentation page.
-  %strong How does Teiid compare to the JBoss Enterprise Data Services Platform?
-  %p Teiid is the query engine at the heart of the JBoss Enterprise Data Services Platform. The Server provides additional functionality that would be expected by an enterprise server – authentication, authorization, load-balancing, and numerous extensibility capabilities. Examples of functionality available with the Enterprise product are: multi-source distributed transactions, multi-source updates through views; importing of enterprise data models from numerous 3rd-party vendors; and connectors to packaged applications.
+  %strong How does Teiid compare to the Red Hat Data Virtualization Platform?
+  %p Teiid is the query engine at the heart of the Red Hat Data Virtualization Platform. The Server provides additional functionality that would be expected by an enterprise server – authentication, authorization, load-balancing, and numerous extensibility capabilities. Examples of functionality available with the Enterprise product are: multi-source distributed transactions, multi-source updates through views; importing of enterprise data models from numerous 3rd-party vendors; and connectors to packaged applications.
   %strong How is Teiid related to Teiid Designer?
   %em (previously Dimension and Modeler)
   %p
-    The Teiid Designer is an Eclipse-based graphical modeling environment used to define data services Teiid query engine. Teiid is also used in Designer for testing queries against VDBs prior to deployment.
+    The Teiid Designer is an Eclipse-based graphical modeling environment used to define data services. Teiid is also used by Designer for testing queries against VDBs prior to deployment.
     %br/
-    Teiid is actually used inside the Teiid Designer modeling environment. It is used for testing queries against VDBs prior to deployment. And it is the query engine packaged as a Web Service application, which is deployed as a standard WAR file for deployment and execution on standard J2EE application servers.
+    Teiid is actually used inside the Teiid Designer modeling environment. It is used for validating queries against VDBs prior to deployment. And it is the query engine packaged as a Web Service application, which is deployed as a standard WAR file for deployment and execution on standard J2EE application servers.
     %br/
     Examples of functionality available with Designer that are not available with the Teiid  project are: real-time transformation of non-XML data into XML structures backed by XML Schemas; use of the Teiid Designer modeling tool; and deployment of Web services exposing integrated data.
