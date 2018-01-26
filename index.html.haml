@@ -20,19 +20,16 @@ title: Teiid Homepage
       %a.accordion-toggle.in{"data-parent" => "#accordionAnnounce", "data-toggle" => "collapse", href: "#collapseTwo"}
         %h4
           .icon.icon-asterisk
-          Announcement: 10.0.0 Final Released on November 2nd, 2017
+          Announcement: 10.1.0 Released on January 25th, 2018
     #collapseTwo.accordion-body.collapse
       .accordion-inner
-        %p Teiid 10.0.0 for Wildfly 11.0.0 is now <a href="http://teiid.jboss.org/downloads/">available</a>. The main features are:
+        %p Teiid 10.1.0 for Wildfly 11.0.0 is now <a href="http://teiid.jboss.org/downloads/">available</a>. The main features are:
         %ul
-          <li><a href="https://issues.jboss.org/browse/TEIID-4981">TEIID-4981</a> Amazon S3 translator support, now read the objects directly from Amazon S3 with security</li>
-          <li><a href="https://issues.jboss.org/browse/TEIID-5026">TEIID-5026</a> The behavior of the FROM_UNIXTIME function was corrected and the related datetime functions UNIX_TIMESTAMP, TO_MILLIS, and FROM_MILLIS were added.</li>
-          <li><a href="https://issues.jboss.org/browse/TEIID-1131">TEIID-1131</a> Added support for importing sequence information.</li>
-          <li><a href="https://issues.jboss.org/browse/TEIID-5073">TEIID-5073</a> Added a salesforce-41 translator/resource adapter pair, which defaults to accessing the v40 salesforce API.</li>
-          <li><a href="https://issues.jboss.org/browse/TEIID-4208">TEIID-4208</a> Added parallelism to plan execution involving large sorts.</li>
-          <li><a href="https://issues.jboss.org/browse/TEIID-5002">TEIID-5002</a> Upgraded to WildFly 11</li>
-          <li><a href="https://issues.jboss.org/browse/TEIID-4711">TEIID-4711</a> Generalized IS DISTINCT support.</li>
-
+          <li><a href="https://issues.jboss.org/browse/TEIID-5161">TEIID-5161</a> Broader pushdown of the RAND function.</li>
+          <li><a href="https://issues.jboss.org/browse/TEIID-5134">TEIID-5134</a> The -final designation has been dropped from major/minor releases, and weekly snapshots have replaced preview releases.</li>
+          <li><a href="https://issues.jboss.org/browse/TEIID-5201">TEIID-5201</a> NpgSQL client query support.</li>
+          <li><a href="https://issues.jboss.org/browse/TEIID-5222">TEIID-5222</a> General array type conversion.</li>
+          <li><a href="https://issues.jboss.org/browse/TEIID-5212">TEIID-5212</a> Additional optimization of join order with left outer joins.</li>
 %table
   %tbody
     %tr
