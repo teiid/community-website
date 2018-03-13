@@ -1,16 +1,12 @@
-## Awestruct
-_tmp
-_site
-stylesheets/_config-variables.less
-.awestruct
-
-## OS related
-*.DS_Store
-
-## IDE
-.settings
-.project
-.buildpath
-
-## Ruby tools
-.rvmrc
+/node_modules
+/public
+/themes/dracoio/static/js
+/themes/dracoio/static/css
+/themes/dracoio/static/fonts
+/themes/dracoio/static/CNAME
+/static/CNAME
+/data/sri
+.cache
+.config
+.yarnrc
+yarn-error.log
