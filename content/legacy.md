@@ -29,4 +29,3 @@ Through abstraction and federation, data is accessed and integrated in real-time
 <div>
 <img width="700" height="665" src="http://docs.jboss.org/teiid/teiid_architecture.png" frameborder="2" ></img>
 </div>\
-
