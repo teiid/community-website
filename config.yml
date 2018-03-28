@@ -1,6 +1,6 @@
-baseURL: "https://teiid.org/"
+baseURL: "https://teiid.github.io/"
 languageCode: "en-gb"
-title: "DRACO"
+title: "Teiid"
 theme: "dracoio"
 canonifyURLs: true
 googleAnalytics: "UA-98663114-1"

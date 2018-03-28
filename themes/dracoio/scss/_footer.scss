@@ -23,8 +23,14 @@
     height: 32rem;
   }
 
+  .btn-secondary {
+    @include button-variant($pf-white, $pf-red, $pf-white);
+    font-weight: bold;
+    width: 40%;
+  }
+
   .btn-primary {
-    @include button-variant($pf-white, $pf-red-200, $pf-black);
+    @include button-variant($pf-white, $pf-red-200, $pf-blue);
     font-weight: bold;
     width: 40%;
 
