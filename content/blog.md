@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Blog"
+description: "Details on how to interact with the Teiid community."
 sidebar: sidenav
 
 menu:
@@ -14,4 +15,4 @@ menu:
 ---
 
 
-#### For the latest news in the Teiid Community visit: [Teiid on Blogspot](http://teiid.blogspot.com)
+Look here <TBD> for latest news on Teiid and everything Draco... in the cloud
