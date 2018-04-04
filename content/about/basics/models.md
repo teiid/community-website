@@ -5,12 +5,13 @@ menu:
   sidenav:
     name: Models
     weight: -396
-    parent: About Teiid
+    parent: Basics
 sidebar: sidenav
 title: "Models"
 toc: true
 weight: 10
 ---
+[Teiid Basics](..) > **Models**
 
 <div>
 <img src="http://static.jboss.org/teiid/images/teiid-model-internals.png" frameborder="2" hspace="40" ></img>

@@ -5,12 +5,13 @@ menu:
   sidenav:
     name: Connectors
     weight: -394
-    parent: About Teiid
+    parent: Basics
 sidebar: sidenav
 title: "Connectors"
 toc: true
 weight: 10
 ---
+[Teiid Basics](..) > **Connectors**
 
 ## Translators and Resource Adaptors
 

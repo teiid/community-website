@@ -5,12 +5,13 @@ menu:
   sidenav:
     name: Data Services
     weight: -394
-    parent: About Teiid
+    parent: Basics
 sidebar: sidenav
 title: "Data Services"
 toc: true
 weight: 10
 ---
+[Teiid Basics](..) > **Data Services**
 
 ## Services
 

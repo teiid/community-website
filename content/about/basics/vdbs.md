@@ -5,12 +5,14 @@ menu:
   sidenav:
     name: Virtual Databases
     weight: -398
-    parent: About Teiid
+    parent: Basics
 sidebar: sidenav
 title: "Virtual Databases"
 toc: true
 weight: 10
 ---
+
+[Teiid Basics](..) > **Virtual Databases**
 
 <div>
 <img width="356" height="319" src="http://static.jboss.org/teiid/images/teiid-vdbinternals.png" frameborder="2" hspace="40" ></img>
