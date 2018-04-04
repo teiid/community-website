@@ -4,7 +4,7 @@ draft: false
 menu:
   sidenav:
     name: Virtual Databases
-    weight: -400
+    weight: -398
     parent: About Teiid
 sidebar: sidenav
 title: "Virtual Databases"

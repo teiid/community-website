@@ -6,7 +6,7 @@ menu:
   sidenav:
     name: "About Teiid"
     pre: "<i class='fa fa-fw fa-info'></i>"
-    weight: -400
+    weight: -500
 ---
 
 ---
@@ -36,10 +36,10 @@ So, why wait, let's go..
 ---
 ### Teiid Basics
 
-*   [Virtual Databases](../basics/virtualdatabases/index.html) - Learn about how Teiid encapsulates your data access as a database.
-*   [Models](../basics/models/index.html) - Learn about how Teiid represents metadata.
-*   [Connectors](../basics/connectors/index.html) - Learn about how Teiid connects to enterprise information systems.
-*   [Data Access Services](../basics/dataservices/index.html) - Learn about how Teiid exposes data access service.
+*   [Virtual Databases](../about/virtualdatabases/index.html) - Learn about how Teiid encapsulates your data access as a database.
+*   [Models](../about/models/index.html) - Learn about how Teiid represents metadata.
+*   [Connectors](../about/connectors/index.html) - Learn about how Teiid connects to enterprise information systems.
+*   [Data Access Services](../about/dataservices/index.html) - Learn about how Teiid exposes data access service.
 
 ---
 

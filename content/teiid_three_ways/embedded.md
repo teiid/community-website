@@ -1,16 +1,19 @@
 ---
+bref: ""
+date: 2017-05-19T14:40:12+01:00
 draft: false
-title: "Teiid Embedded"
-sidebar: sidenav
-
 menu:
   sidenav:
-    name: "Teiid Embedded"
-    pre: "<i class='fa fa-fw fa-first-order'></i>"
-    weight: -250
+    name: Embedded
+    weight: -300
+    parent: Teiid Three Ways
+sidebar: sidenav
+title: "Teiid Embedded"
+toc: true
+weight: 20
 ---
 
-Teiid Embedded is a light-weight version of Teiid for use in any Java 7+ JRE application.
+**Teiid Embedded** is a light-weight version of Teiid for use in any Java 7+ JRE application.
 
 If you are needing a simpler approach to accessing data from stable/static sources, *Teiid Embedded* may be a simpler approach for accessing your data from within your application code.
 

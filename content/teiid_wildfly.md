@@ -7,7 +7,7 @@ menu:
   sidenav:
     name: "Teiid Wildfly"
     pre: "<i class='fa fa-fw fa-server'></i>"
-    weight: -280
+    weight: -310
 ---
 
 Teiid Wildfly Information....

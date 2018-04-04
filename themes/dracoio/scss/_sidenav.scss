@@ -111,6 +111,46 @@ ul.sidebar-menu {
         }
       }
     }
+    
+    ul.subsub {
+      margin: -2px 0 0;
+      padding: 0;
+
+      li {
+        background: #eeeeee;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+
+        &:last-child {
+          border-radius: 0 0 4px 4px;
+          -webkit-border-radius: 0 0 4px 4px;
+        }
+
+        a {
+          font-size: 12px;
+          padding: 0 0 0 50px;
+          line-height: 35px;
+          height: 35px;
+          transition: all 0.2s ease;
+          color: $pf-black-600;
+
+          &:hover {
+            color: $brand-primary;
+            transition: all 0.2s ease;
+            display: block;
+          }
+        }
+      }
+
+      li.active {
+        a {
+          color: $brand-primary;
+          transition: all 0.2s ease;
+          display: block;
+        }
+      }
+    }
 
     line-height: 20px !important;
 
