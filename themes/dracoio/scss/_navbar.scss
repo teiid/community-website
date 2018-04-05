@@ -8,6 +8,7 @@ $navbar-min-height: 74px;
 
 nav.navbar {
   min-height: $navbar-min-height;
+  padding: 6px;
 
   .navbar-brand {
     font-family: Righteous, cursive;

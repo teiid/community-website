@@ -3,9 +3,9 @@ bref: ""
 draft: false
 menu:
   sidenav:
-    name: Downloads (TMS)
+    name: Downloads  -
     weight: -258
-    parent: Teiid Microservices
+    parent: Microservices
 sidebar: sidenav
 title: "Teiid Microservices Downloads"
 toc: true

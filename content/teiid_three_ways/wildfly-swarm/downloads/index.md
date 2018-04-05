@@ -3,9 +3,9 @@ bref: ""
 draft: false
 menu:
   sidenav:
-    name: Downloads (TWS)
+    name: Downloads   -
     weight: -268
-    parent: Teiid Wildfly Swarm
+    parent: Wildfly Swarm
 sidebar: sidenav
 title: "Teiid Wildfly Swarm Downloads"
 toc: true
