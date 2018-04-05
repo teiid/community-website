@@ -3,9 +3,9 @@ bref: ""
 draft: false
 menu:
   sidenav:
-    name: Quickstart (TM)
+    name: Quickstart  -
     weight: -259
-    parent: Teiid Microservices
+    parent: Microservices
 sidebar: sidenav
 title: "Teiid Microservices Quickstart"
 toc: true

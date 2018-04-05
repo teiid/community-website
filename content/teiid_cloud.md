@@ -1,11 +1,11 @@
 ---
 draft: false
-title: "Teiid Cloud"
+title: "Cloud Data Services"
 sidebar: sidenav
 
 menu:
   sidenav:
-    name: "Teiid Cloud"
+    name: "Cloud Data Services"
     pre: "<i class='fa fa-fw fa-cloud'></i>"
     weight: -380
 ---

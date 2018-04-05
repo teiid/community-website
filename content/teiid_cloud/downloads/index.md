@@ -5,7 +5,7 @@ menu:
   sidenav:
     name: Downloads
     weight: -360
-    parent: Teiid Cloud
+    parent: Cloud Data Services
 sidebar: sidenav
 title: "Teiid Cloud Downloads"
 toc: true

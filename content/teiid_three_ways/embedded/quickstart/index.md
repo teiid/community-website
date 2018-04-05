@@ -3,9 +3,9 @@ bref: ""
 draft: false
 menu:
   sidenav:
-    name: Quickstart (TE)
+    name: Quickstart -
     weight: -249
-    parent: Teiid Embedded
+    parent: Embedded
 sidebar: sidenav
 title: " Teiid Embedded Quickstart"
 toc: true

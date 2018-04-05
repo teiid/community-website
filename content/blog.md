@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "Blog"
-description: "Details on how to interact with the Teiid community."
+description: "News and details around the Teiid community."
 sidebar: sidenav
 
 menu:
@@ -10,9 +10,9 @@ menu:
     pre: "<i class='fa fa-fw fa-comments'></i>"
     weight: -180
   topnav:
-    name: "blog"
+    name: "blogspot"
     weight: -190
 ---
 
 
-Look here <TBD> for latest news on Teiid and everything Draco... in the cloud
+The [Teiid Blog](http://teiid.blogspot.com/) is on Blogspot:  http://teiid.blogspot.com/

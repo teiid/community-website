@@ -3,9 +3,9 @@ bref: ""
 draft: false
 menu:
   sidenav:
-    name: Downloads (TE)
+    name: Downloads -
     weight: -248
-    parent: Teiid Embedded
+    parent: Embedded
 sidebar: sidenav
 title: "Teiid Embedded Downloads"
 toc: true
