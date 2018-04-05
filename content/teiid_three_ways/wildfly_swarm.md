@@ -12,7 +12,7 @@ title: "Teiid Wildfly Swarm"
 toc: true
 weight: 20
 ---
-[Teiid Three Ways](..) > [**Teiid Wildfly Swarm**](./wildfly_swarm)
+[Teiid Three Ways](..) > **Teiid Wildfly Swarm**
 
 The Teiid feature in the [Wildfly Swarm](https://legacy.gitbook.com/book/wildfly-swarm/wildfly-swarm-users-guide/details) universe is provided via composable pieces or [**fractions**](https://wildfly-swarm.gitbooks.io/wildfly-swarm-users-guide/fraction_authoring.html).
 

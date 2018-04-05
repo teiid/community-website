@@ -13,7 +13,7 @@ toc: true
 weight: 20
 ---
 
-[Teiid Three Ways](..) > [**Microservices**](./microservices)
+[Teiid Three Ways](..) > **Microservices**
 
 The Teiid project includes a feature to help you develop data services within Spring applications and expose them as microservices.
 

@@ -12,7 +12,7 @@ title: "Teiid Embedded"
 toc: true
 weight: 20
 ---
-[Teiid Three Ways](..) > [**Embedded**](./Embedded)
+[Teiid Three Ways](..) > **Embedded**
 
 **Teiid Embedded** is a light-weight version of Teiid for use in any Java 7+ JRE application.
 
