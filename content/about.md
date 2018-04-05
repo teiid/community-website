@@ -7,11 +7,15 @@ menu:
     name: "About Teiid"
     pre: "<i class='fa fa-fw fa-info'></i>"
     weight: -500
+toc: true
 ---
 
 ---
+[**Why Teiid**](why-teiid) | [**Basics**](basics) | [**Project History**](history)
 
-#### Teiid offers a relational abstraction of all information sources that is highly performant and allows for integration with your existing relational tools. Teiid has an accompanying easy-to-use [design tool](../tools/index.html) that enables data architects to integrate disparate information in minutes.
+## Description
+
+**Teiid offers a relational abstraction of all information sources that is highly performant and allows for integration with your existing relational tools. Teiid has an accompanying easy-to-use [design tool](../tools/index.html) that enables data architects to integrate disparate information in minutes.**
 
 Teiid has a [long history](../about/history) of addressing the data access needs of any size enterprise environment.  Have a look at [Why Teiid?](../about/why), our [feature matrix](../about/featurematrix/index.html), and [FAQ](../faq) to see if this project is a good fit for your needs.
 
