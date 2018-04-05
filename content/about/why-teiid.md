@@ -13,6 +13,8 @@ toc: true
 weight: 20
 ---
 
+**Why Teiid** | [**Basics**](../basics) | [**Project History**](../history)
+
 **1\. Familiar Interface: JDBC**
 
 <span class="product">Teiid</span> has a very familiar interface: JDBC! Every Java developer is familiar with JDBC access to data sources. Now leverage your knowledge of the JDBC standard to access _all_ your data sources.

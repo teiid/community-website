@@ -13,6 +13,8 @@ toc: true
 weight: 20
 ---
 
+[**Why Teiid**](../why-teiid) | **Basics** | [**Project History**](../history)
+
 ### Teiid Basics
 
 *   [Virtual Databases](./vdbs) - Learn about how Teiid encapsulates your data access as a database.
