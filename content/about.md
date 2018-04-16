@@ -6,7 +6,7 @@ menu:
   sidenav:
     name: "About Teiid"
     pre: "<i class='fa fa-fw fa-info'></i>"
-    weight: -500
+    weight: -200
 toc: true
 ---
 

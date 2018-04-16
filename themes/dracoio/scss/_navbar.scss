@@ -9,11 +9,13 @@ $navbar-min-height: 74px;
 nav.navbar {
   min-height: $navbar-min-height;
   padding: 6px;
-
+  padding-left: 30px;
+  
   .navbar-brand {
     font-family: Righteous, cursive;
     color: $pf-white !important;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
+    
 
     @include hover-focus {
       color: $pf-white !important;

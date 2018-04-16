@@ -12,11 +12,11 @@ toc: true
 weight: 10
 ---
 
-[Teiid Basics](..) > **Virtual Databases**
+[**Teiid Basics**](..) &nbsp;&nbsp; < &nbsp;&nbsp; **Virtual Databases** &nbsp;&nbsp; | &nbsp;&nbsp; [Models](../models) &nbsp;&nbsp; | &nbsp;&nbsp; [Data Services](../dataservices) &nbsp;&nbsp; | &nbsp;&nbsp; [Connectors](../connectors)
 
 <div>
 <img width="356" height="319" src="http://static.jboss.org/teiid/images/teiid-vdbinternals.png" frameborder="2" hspace="40" ></img>
-</div>\
+</div>
 
 ---
 ### The Virtual Database

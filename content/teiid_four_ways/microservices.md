@@ -6,14 +6,20 @@ menu:
   sidenav:
     name: Microservices
     weight: -280
-    parent: Teiid Three Ways
+    parent: Teiid 4 Ways
 sidebar: sidenav
 title: "Teiid Microservices"
 toc: true
 weight: 20
 ---
 
-[Teiid Three Ways](..) > **Microservices**
+[**Teiid 4 Ways**](..) &nbsp;&nbsp; <  &nbsp;&nbsp; [Wildfly] (../teiid_wildfly) &nbsp;&nbsp; | &nbsp;&nbsp; [Wildfly Swarm](../wildfly_swarm) &nbsp;&nbsp; | &nbsp;&nbsp; **Microservices** &nbsp;&nbsp; | &nbsp;&nbsp;  [Embedded](../embedded)
+
+<div>
+<img width="583" height="435" src="../../images/teiid-spring-boot.png" frameborder="2" hspace="40" ></img>
+</div>
+
+---
 
 The Teiid project includes a feature to help you develop data services within Spring applications and expose them as microservices.
 
@@ -31,3 +37,4 @@ For more details see:
 
 ## - [Reference Guide](https://github.com/teiid/teiid-spring-boot/blob/master/docs/Reference.adoc)
 
+---

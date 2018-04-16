@@ -11,7 +11,7 @@ menu:
   
   sidenav:
     pre: "<i class='fa fa-fw fa-file-text'></i>"
-    weight: -180
+    weight: -190
 ---
 
 ## What is Teiid? 

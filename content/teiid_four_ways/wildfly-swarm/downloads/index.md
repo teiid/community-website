@@ -3,7 +3,7 @@ bref: ""
 draft: false
 menu:
   sidenav:
-    name: Downloads   -
+    name: Downloads    -
     weight: -268
     parent: Wildfly Swarm
 sidebar: sidenav

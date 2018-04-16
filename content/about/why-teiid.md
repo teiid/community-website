@@ -13,7 +13,7 @@ toc: true
 weight: 20
 ---
 
-**Why Teiid** | [**Basics**](../basics) | [**Project History**](../history)
+**Why Teiid** &nbsp;&nbsp; | &nbsp;&nbsp; [**Basics**](../basics) &nbsp;&nbsp; | &nbsp;&nbsp; [**Project History**](../history)
 
 **1\. Familiar Interface: JDBC**
 

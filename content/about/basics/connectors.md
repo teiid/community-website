@@ -11,7 +11,8 @@ title: "Connectors"
 toc: true
 weight: 10
 ---
-[Teiid Basics](..) > **Connectors**
+
+[**Teiid Basics**](..) &nbsp;&nbsp; < &nbsp;&nbsp; [Virtual Databases](../vdbs) &nbsp;&nbsp; | &nbsp;&nbsp; [Models](../models) &nbsp;&nbsp; | &nbsp;&nbsp; [Data Services](../dataservices) &nbsp;&nbsp; | &nbsp;&nbsp; **Connectors**
 
 ## Translators and Resource Adaptors
 
