@@ -6,13 +6,13 @@ menu:
   sidenav:
     name: Embedded
     weight: -260
-    parent: Teiid Three Ways
+    parent: Teiid 4 Ways
 sidebar: sidenav
 title: "Teiid Embedded"
 toc: true
 weight: 20
 ---
-[Teiid Three Ways](..) > **Embedded**
+[**Teiid 4 Ways**](..) &nbsp;&nbsp; < &nbsp;&nbsp; [Wildfly] (../teiid_wildfly) &nbsp;&nbsp; | &nbsp;&nbsp; [Wildfly Swarm](../wildfly_swarm) &nbsp;&nbsp; | &nbsp;&nbsp; [Microservices](../microservices) &nbsp;&nbsp; | &nbsp;&nbsp; **Embedded**
 
 **Teiid Embedded** is a light-weight version of Teiid for use in any Java 7+ JRE application.
 

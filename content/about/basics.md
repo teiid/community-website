@@ -13,7 +13,7 @@ toc: true
 weight: 20
 ---
 
-[**Why Teiid**](../why-teiid) | **Basics** | [**Project History**](../history)
+[**Why Teiid**](../why-teiid) &nbsp;&nbsp; | &nbsp;&nbsp; **Basics** &nbsp;&nbsp; | &nbsp;&nbsp; [**Project History**](../history)
 
 ### Teiid Basics
 

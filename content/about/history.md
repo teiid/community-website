@@ -12,7 +12,7 @@ title: "History"
 toc: true
 weight: 20
 ---
-[**Why Teiid**](../why-teiid) | [**Basics**](../basics) | **Project History**
+[**Why Teiid**](../why-teiid) &nbsp;&nbsp; | &nbsp;&nbsp; [**Basics**](../basics) &nbsp;&nbsp; | &nbsp;&nbsp;  **Project History**
 
 ### Teiid and MetaMatrix
 
@@ -21,9 +21,3 @@ MetaMatrix pioneered the EII (Enterprise Information Integration) market segment
 MetaMatrix joined Red Hat under JBoss Middleware in April of 2007.  At the time MetaMatrix followed a closed source model.  Now, the MetaMatrix approach to EII will continue to thrive as the community driven [Teiid Project](../../index.html), with a subscription based product [JBoss Enterprise Data Services Platform](http://www.jboss.com/products/platforms/dataservices) offering the renowned support of Red Hat/JBoss.
 
 The Teiid code line was started in parallel with the 5.5.2 release effort.  The current state of Teiid incorporates relevant fixes available in subsequent service packs and originating through our professional support.  However the product and feature set of Teiid is different from MetaMatrix.  Foremost Teiid encompasses only the MetaMatrix server and related components - the Designer is its own project at [http://www.jboss.org/teiiddesigner](http://www.jboss.org/teiiddesigner).  Next major components are evolving (Console -> [JON](http://www.jboss.com/products/jbosson/)) or have been removed (QueryBuilder). Finally important extension APIs have changed/and or been supplanted by other mechanisms. Please consult Teiid the release notes, documentation, and forums if you experience an issue migrating from MetaMatrix.
-
-<div class="alert alert-info">Note that the [JBoss Enterprise Data Services Platform](http://www.jboss.com/products/platforms/dataservices)
-
-[product will focus on providing documentation and additional bridging code to ease the transition from MetaMatrix to Teiid.](http://www.jboss.com/products/platforms/dataservices)
-
-</div>
