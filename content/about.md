@@ -7,13 +7,14 @@ menu:
     name: "About Teiid"
     pre: "<i class='fa fa-fw fa-info'></i>"
     weight: -200
+  topnav:
+    name: "about"
+    weight: -160
 toc: true
 ---
 
 ---
-[**Why Teiid**](why-teiid) | [**Basics**](basics) | [**Project History**](history)
-
-## Description
+[**Why Teiid**](why-teiid) &nbsp;&nbsp; | &nbsp;&nbsp; [**FAQ**](faq) &nbsp;&nbsp; |&nbsp;&nbsp; [**Basics**](basics) &nbsp;&nbsp; | &nbsp;&nbsp; [**Project History**](history)
 
 **Teiid offers a relational abstraction of all information sources that is highly performant and allows for integration with your existing relational tools. Teiid has an accompanying easy-to-use [design tool](../tools/index.html) that enables data architects to integrate disparate information in minutes.**
 
@@ -24,7 +25,7 @@ Teiid is [open source](../about/license) and has been a part of the [JBoss Commu
 [**More reasons?**](./why-teiid)
 
 ---
-### Core Teiid Components
+## Core Teiid Components
 
 *   [Teiid Query Engine](../docs/index.html)
 *   [Teiid Designer](http://teiiddesigner.jboss.org/)
@@ -40,7 +41,7 @@ You can even start with Teiid Basics section to learn about Virtual Databases (V
 So, why wait, let's go..
 
 ---
-### Teiid Basics
+## Teiid Basics
 
 *   [Virtual Databases](../about/virtualdatabases/index.html) - Learn about how Teiid encapsulates your data access as a database.
 *   [Models](../about/models/index.html) - Learn about how Teiid represents metadata.

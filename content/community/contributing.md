@@ -176,7 +176,7 @@ $ ./mvnw -Pchecks clean install
 
 #### Deploying locally to Minishift
 
-Follow the [quickstart]({{< ref "quickstart.md" >}}) guide to get your Minishift instance up and running. After that set your Docker environment from
+Follow the [quickstarts]({{< ref "quickstarts.md" >}}) guide to get your Minishift instance up and running. After that set your Docker environment from
 Minishift and run Maven build with `-Ddeploy` property set. This will trigger `flash` and `deploy` Maven properties.
 
 ```bash

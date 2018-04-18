@@ -6,7 +6,7 @@ menu:
   sidenav:
     name: Integration
     weight: -300
-    parent: Quickstart
+    parent: Quickstarts
 sidebar: sidenav
 title: "Integration Quickstart"
 toc: true

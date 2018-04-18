@@ -12,7 +12,7 @@ title: "History"
 toc: true
 weight: 20
 ---
-[**Why Teiid**](../why-teiid) &nbsp;&nbsp; | &nbsp;&nbsp; [**Basics**](../basics) &nbsp;&nbsp; | &nbsp;&nbsp;  **Project History**
+[**About**](..) &nbsp;&nbsp; < &nbsp;&nbsp; [**Why Teiid**](../why-teiid) &nbsp;&nbsp; | &nbsp;&nbsp; [**FAQ**](../faq) &nbsp;&nbsp; |&nbsp;&nbsp; [**Basics**](../basics) &nbsp;&nbsp; | &nbsp;&nbsp; **Project History**
 
 ### Teiid and MetaMatrix
 

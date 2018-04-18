@@ -1,21 +1,19 @@
 ---
-bref: ""
-date: 2017-05-16T15:58:18+01:00
-description: ""
-draft: false
+title: Quickstarts
+sidebar: sidenav
+
 menu:
   sidenav:
-    pre: <i class='fa fa-fw fa-rocket'></i>
-    weight: -400
+    name: "Quickstarts"
+    pre: "<i class='fa fa-fw fa-rocket'></i>"
+    weight: -450
   topnav:
-    name: quickstart
-    identifier: quickstart
+    name: "quickstarts"
     weight: -200
-sidebar: sidenav
-title: "Quickstarts"
 toc: true
-weight: 20
 ---
+
+<h3>Take a tour and try your hand at Teiid in the cloud...</h3> 
 
 ---
 

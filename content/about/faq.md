@@ -1,18 +1,21 @@
 ---
+bref: ""
+date: 2017-05-19T14:40:12+01:00
 draft: false
+menu:
+  sidenav:
+    name: FAQ
+    weight: -350
+    parent: About Teiid
+  topnav:
+    name: "faq"
+    weight: -190
+sidebar: sidenav
 title: "FAQ"
 toc: true
-sidebar: sidenav
-menu:
-  topnav:
-    weight: -130
-    identifier: "name"
-    name: "faq"
-  
-  sidenav:
-    pre: "<i class='fa fa-fw fa-file-text'></i>"
-    weight: -190
+weight: 20
 ---
+[**About**](..) &nbsp;&nbsp; < &nbsp;&nbsp; [**Why Teiid**](../why-teiid) &nbsp;&nbsp; | &nbsp;&nbsp; **FAQ** &nbsp;&nbsp; | &nbsp;&nbsp; [**Basics**](../basics) &nbsp;&nbsp; | &nbsp;&nbsp; [**Project History**](../history)
 
 ## What is Teiid? 
 First it's a whiptailed lizard, but it's much more. Teiid provides a data virtualization and secure data access layer that can simplify your data integration with your applications. 

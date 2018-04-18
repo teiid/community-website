@@ -10,11 +10,11 @@ menu:
     weight: -240
 ---
 
-The Teiid project includes a handful of tools to help you develop and manage various artifacts and components.
+The Teiid project includes a few tools to help you develop and manage various artifacts and components.
 
 ---
 
-## [Beetle Studio](/tools/beetle_studio_tool)
+## [Beetle Studio](/tools/beetle_studio)
 
 <div>
 <img width="600" height="363" src="../images/beetle-studio-home.png" frameborder="2" hspace="40" ></img>
@@ -22,7 +22,7 @@ The Teiid project includes a handful of tools to help you develop and manage var
 
 ---
 
-## [Teiid Designer](/tools/teiid_designer_tool)
+## [Teiid Designer](/tools/teiid_designer)
 
 *Teiid Designer** is a visual tool built in Eclipse, that enables rapid, model-driven definition, integration, management
 and testing your VDBs using the Teiid runtime framework.
