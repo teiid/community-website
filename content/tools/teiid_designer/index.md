@@ -20,14 +20,16 @@ and testing your VDBs using the Teiid runtime framework.
 <img width="600" height="363" src="../../../images/teiid-designer-perspective.png" frameborder="2" hspace="40" vspace="20" ></img>
 </div>
 
-**See our Teiid Designer User Guide for details -
+---
+
+[**Download and Install**](../../teiid_four_ways/teiid_wildfly/downloads/#teiid-designer)
+
+**User Guide -
 [HTML](http://docs.jboss.org/teiid/designer/11.1.2/user-guide/html/)
 | [HTML Single](http://docs.jboss.org/teiid/designer/11.1.2/user-guide/html_single/)
 | [PDF](http://docs.jboss.org/teiid/designer/11.1.2/user-guide/pdf/)**
 
----
-
-## User Guide
+## User Guide Table Of Contents
 
 Version 11.1.2
 

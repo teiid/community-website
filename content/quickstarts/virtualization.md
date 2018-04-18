@@ -6,9 +6,8 @@ menu:
   sidenav:
     name: Virtualization
     weight: -400
-    parent: Quickstart
+    parent: Quickstarts
 sidebar: sidenav
-
 title: "Virtualization Quickstart"
 toc: true
 weight: 20
